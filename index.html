@@ -1,0 +1,3491 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Ali Fazeli — Full-Stack Developer | Portfolio &amp; Résumé</title>
+<meta name="description" content="Ali Fazeli — Full-Stack Developer in Tehran. React, Next.js, Node.js, Python &amp; PostgreSQL. Browse the résumé, projects and certifications.">
+<link rel="canonical" href="https://alifazeli20.github.io/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="Ali Fazeli">
+<link rel="me" href="https://github.com/AliFazeli20">
+<link rel="me" href="https://www.linkedin.com/in/ali-fazeli20">
+<meta name="theme-color" content="#1E1630" id="metaThemeColor">
+<script>
+  (function(){
+    try{
+      if(window.localStorage && localStorage.getItem('alifazeli_mode') === 'light'){
+        document.documentElement.setAttribute('data-mode', 'light');
+        var m = document.getElementById('metaThemeColor');
+        if(m) m.setAttribute('content', '#FFFFFF');
+      }
+    }catch(e){}
+    try{
+      var storedLang = 'en';
+      if(window.localStorage){
+        var savedLang = localStorage.getItem('alifazeli_lang');
+        if(savedLang === 'fa' || savedLang === 'en') storedLang = savedLang;
+      }
+      if(storedLang === 'fa'){
+        // Markup text is baked in as English (what crawlers, link previews and
+        // no-JS visitors get), so a Persian-bound visitor would otherwise see a
+        // flash of English before applyLanguage() swaps it. Flip lang/dir now and
+        // hide the window until the swap lands.
+        document.documentElement.lang = 'fa';
+        document.documentElement.dir = 'rtl';
+        document.documentElement.setAttribute('data-lang', 'fa');
+        document.documentElement.classList.add('lang-pending');
+        // safety net: don't leave the page blank if the main script errors out
+        setTimeout(function(){ document.documentElement.classList.remove('lang-pending'); }, 1500);
+      }
+    }catch(e){}
+  })();
+</script>
+
+<!-- Open Graph (Telegram, WhatsApp, LinkedIn, Facebook preview) — absolute URLs are required by these crawlers -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ali Fazeli">
+<meta property="og:url" content="https://alifazeli20.github.io/">
+<meta property="og:title" content="Ali Fazeli — Full-Stack Developer | Portfolio &amp; Résumé">
+<meta property="og:description" content="Ali Fazeli — Full-Stack Developer in Tehran. React, Next.js, Node.js, Python &amp; PostgreSQL. Browse the résumé, projects and certifications.">
+<meta property="og:image" content="https://alifazeli20.github.io/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ali Fazeli — Full-Stack Software Developer, portfolio preview">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="fa_IR">
+
+<!-- Twitter/X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ali Fazeli — Full-Stack Developer | Portfolio &amp; Résumé">
+<meta name="twitter:description" content="Ali Fazeli — Full-Stack Developer in Tehran. React, Next.js, Node.js, Python &amp; PostgreSQL. Browse the résumé, projects and certifications.">
+<meta name="twitter:image" content="https://alifazeli20.github.io/og-image.png">
+<meta name="twitter:image:alt" content="Ali Fazeli — Full-Stack Software Developer, portfolio preview">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://alifazeli20.github.io/#website",
+   "url": "https://alifazeli20.github.io/",
+   "name": "Ali Fazeli — Portfolio",
+   "inLanguage": [
+    "en",
+    "fa"
+   ],
+   "publisher": {
+    "@id": "https://alifazeli20.github.io/#person"
+   }
+  },
+  {
+   "@type": "ProfilePage",
+   "@id": "https://alifazeli20.github.io/#webpage",
+   "url": "https://alifazeli20.github.io/",
+   "name": "Ali Fazeli — Full-Stack Developer | Portfolio & Résumé",
+   "isPartOf": {
+    "@id": "https://alifazeli20.github.io/#website"
+   },
+   "mainEntity": {
+    "@id": "https://alifazeli20.github.io/#person"
+   },
+   "inLanguage": "en",
+   "dateModified": "2026-10-16",
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://alifazeli20.github.io/og-image.png"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://alifazeli20.github.io/#person",
+   "name": "Ali Fazeli",
+   "alternateName": [
+    "علی فاضلی",
+    "AliFazeli20"
+   ],
+   "url": "https://alifazeli20.github.io/",
+   "image": "https://alifazeli20.github.io/og-image.png",
+   "jobTitle": "Full-Stack Software Developer",
+   "description": "Ali Fazeli — Full-Stack Developer in Tehran. React, Next.js, Node.js, Python & PostgreSQL. Browse the résumé, projects and certifications.",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Tehran",
+    "addressCountry": "IR"
+   },
+   "knowsLanguage": [
+    "fa",
+    "en"
+   ],
+   "knowsAbout": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "PostgreSQL",
+    "Docker"
+   ],
+   "sameAs": [
+    "https://github.com/AliFazeli20",
+    "https://www.linkedin.com/in/ali-fazeli20"
+   ]
+  }
+ ]
+}
+</script>
+<noscript><style>.section,.shell-line{opacity:1!important;transform:none!important}.boot-screen{display:none!important}</style></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<!-- Tabler's full icon set (~25-30 icons are actually used on this page) is loaded
+     non-render-blocking via preload+onload, so the browser doesn't hold first paint
+     for a stylesheet this large; the error listener below still applies to it. -->
+<link rel="preload" as="style" id="tablerIconsCss" href="https://unpkg.com/@tabler/icons-webfont@2.47.0/tabler-icons.min.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://unpkg.com/@tabler/icons-webfont@2.47.0/tabler-icons.min.css"></noscript>
+<style>
+  :root{
+    --coral:#FF8B7B;
+    --amber:#FFC65C;
+    --mint:#4FD8C4;
+    --peri:#9B8CFA;
+    --rose:#FF6FA0;
+    --on-accent:#1E1630;
+    --plum-900:#1E1630;
+    --plum-800:#2A2044;
+    --plum-700:#372A57;
+    --lav-50:#F6F3FF;
+    --lav-100:#EDE7FB;
+    --void:#120D1E;
+    --ink-hi:#F6F3FF;
+    --ink-lo:rgba(246,243,255,0.62);
+    --ink-faint:rgba(246,243,255,0.52);
+    --line-rgb:255,255,255;
+    --shadow-rgb:20,14,36;
+    --scrim:rgba(15,10,26,0.55);
+    --mono:'JetBrains Mono',monospace;
+    --sans:'Vazirmatn',sans-serif;
+    --radius-lg:20px;
+    --radius-md:12px;
+    --radius-sm:8px;
+  }
+  html[data-lang="en"]{ --sans:'Inter',sans-serif; }
+
+  /* ---------- Light mode ---------- */
+  html[data-mode="light"]{
+    --plum-900:#FFFFFF;
+    --plum-800:#F3EFFC;
+    --plum-700:#E9E2FA;
+    --void:#EEE9FA;
+    --ink-hi:#1E1630;
+    --ink-lo:rgba(30,22,48,0.68);
+    --ink-faint:rgba(30,22,48,0.64);
+    --line-rgb:30,22,48;
+    --shadow-rgb:120,105,160;
+    --scrim:rgba(230,225,250,0.65);
+  }
+  html[data-mode="light"] body{ background:var(--void); }
+  html[data-mode="light"] ::selection{ background:var(--peri); color:#fff; }
+  html[data-mode="light"] .window{
+    box-shadow:0 40px 90px -25px rgba(120,105,160,0.28), 0 0 0 1px rgba(30,22,48,0.08) inset;
+  }
+  html[data-mode="light"] .commit::before{
+    box-shadow:0 0 0 4px var(--plum-900), 0 0 0 5px var(--commit-color,var(--peri));
+  }
+  html[data-mode="light"] .shell{ background:rgba(30,22,48,0.05); }
+  /* Full-line accent-colored "code comment" text (mint/amber/rose at full
+     saturation) reads fine on the dark background but gets too pale on
+     white. Blending each toward --ink-hi (which is itself dark in light
+     mode) deepens them just for light mode, without touching dark mode or
+     any of the four color themes. */
+  html[data-mode="light"] .comment{ color:color-mix(in srgb, var(--mint) 62%, var(--ink-hi)); opacity:1; }
+  html[data-mode="light"] .eyebrow{ color:color-mix(in srgb, var(--amber) 55%, var(--ink-hi)); }
+  html[data-mode="light"] .type-line{ color:color-mix(in srgb, var(--rose) 60%, var(--ink-hi)); }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;height:100%;overflow:hidden;overscroll-behavior:none;}
+  html{ scroll-behavior:smooth; }
+  body{
+    font-family:var(--sans);
+    background:var(--void);
+    color:var(--plum-900);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+  ::selection{background:var(--peri);color:#fff;}
+
+  a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:transparent;}
+  button{font-family:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent;}
+
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--peri);
+    outline-offset:2px;
+    border-radius:4px;
+  }
+
+  /* ---------- Boot screen ----------
+     Kept a fixed dark "terminal" background on purpose, independent of
+     --plum-900, so it reads the same boot/kernel way whether the site is
+     about to land on light or dark mode. */
+  .boot-screen{
+    position:fixed;
+    inset:0;
+    z-index:200;
+    background:#1E1630;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    transition:opacity .5s ease, transform .5s ease;
+    /* re-pin the ink tones to their dark-mode values inside this box, since
+       the bg above is always dark regardless of --mode */
+    --ink-hi:#F6F3FF;
+    --ink-lo:rgba(246,243,255,0.62);
+    --ink-faint:rgba(246,243,255,0.52);
+  }
+  .boot-screen.hide{
+    opacity:0;
+    transform:scale(1.03);
+    pointer-events:none;
+  }
+  .boot-box{
+    width:min(520px,88vw);
+    font-family:var(--mono);
+    direction:ltr;
+    text-align:left;
+    color:var(--ink-lo);
+    font-size:13.5px;
+  }
+  .boot-lines{ min-height:150px; margin-bottom:18px; }
+  .boot-line{
+    opacity:0;
+    transform:translateY(4px);
+    transition:opacity .25s ease, transform .25s ease;
+    margin-bottom:6px;
+    line-height:1.6;
+  }
+  .boot-line.show{ opacity:1; transform:translateY(0); }
+  .boot-line .tag{ color:var(--mint); font-weight:600; }
+  .boot-line .tag.done{ color:var(--amber); }
+  .boot-progress-row{ display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+  .boot-bar-wrap{ flex:1; height:6px; border-radius:4px; background:rgba(var(--line-rgb),0.08); overflow:hidden; }
+  .boot-bar-fill{ display:block; height:100%; width:0%; background:var(--mint); transition:width .1s linear; }
+  .boot-percent{ color:var(--ink-faint); font-size:12px; min-width:38px; text-align:right; }
+  .boot-skip{ color:var(--ink-faint); font-size:11px; opacity:.55; text-align:center; }
+  @media (max-width:760px){ .boot-box{ font-size:12.5px; } }
+
+  /* Paired with the early <head> script: hides the window's content for the
+     brief window between first paint and the main script's applyLanguage()
+     call, when the resolved language is English but the markup's baked-in
+     text is still Persian. The boot screen (for first-time visitors) isn't
+     affected since it's a sibling of .desktop, not a descendant. */
+  html.lang-pending .desktop{ visibility:hidden; }
+
+  /* ---------- Desktop wallpaper ---------- */
+  .desktop{
+    position:fixed;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px 20px;
+    overflow:hidden;
+  }
+  .particle-canvas{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    pointer-events:none;
+  }
+  @media (max-width:760px){ .particle-canvas{ display:none; } }
+
+  /* ---------- Window ---------- */
+  .window{
+    position:relative;
+    z-index:2;
+    width:min(1140px,100%);
+    height:min(780px,90vh);
+    background:var(--plum-900);
+    border-radius:var(--radius-lg);
+    box-shadow:0 40px 90px -25px rgba(20,14,36,0.55), 0 0 0 1px rgba(var(--line-rgb),0.06) inset;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+  }
+
+  .titlebar{
+    direction:rtl;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    height:46px;
+    padding:0 16px;
+    background:var(--plum-800);
+    border-bottom:1px solid rgba(var(--line-rgb),0.06);
+    flex-shrink:0;
+    position:relative;
+    z-index:16;
+  }
+  .traffic-lights{ display:flex; gap:8px; flex-shrink:0; }
+  .traffic-lights span{ width:11px;height:11px;border-radius:50%;display:block; }
+  .traffic-lights span:nth-child(1){ background:#FF6B6B; }
+  .traffic-lights span:nth-child(2){ background:#FFC65C; }
+  .traffic-lights span:nth-child(3){ background:#4FD8C4; }
+
+  .tabs{
+    display:flex;
+    gap:2px;
+    overflow-x:auto;
+    scrollbar-width:none;
+    height:100%;
+  }
+  .tabs::-webkit-scrollbar{display:none;}
+  .tab{
+    direction:rtl;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    height:100%;
+    padding:0 14px;
+    background:transparent;
+    border:none;
+    color:var(--ink-faint);
+    font-family:var(--mono);
+    font-size:12.5px;
+    white-space:nowrap;
+    border-bottom:2px solid transparent;
+    transition:color .2s ease, border-color .2s ease, background .2s ease;
+  }
+  .tab .dot{ width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.5;flex-shrink:0; }
+  .tab.active{ color:var(--ink-hi); border-bottom-color:var(--peri); background:rgba(var(--line-rgb),0.04); }
+
+  .tb-utils{ display:flex; align-items:center; gap:2px; flex-shrink:0; padding-inline-start:6px; }
+  /* Desktop: the five secondary controls flow inline in the bar. In the compact
+     tier (<=1000px) this wrapper becomes the Settings menu. */
+  .tb-more{ display:contents; }
+  .tb-btn{
+    display:flex; align-items:center; gap:6px;
+    height:34px; padding:0 10px;
+    background:transparent; border:0; border-radius:var(--radius-sm);
+    color:var(--ink-lo); font-family:var(--mono); font-size:12px; white-space:nowrap;
+    transition:background .12s cubic-bezier(.2,0,0,1), color .12s ease, transform .1s cubic-bezier(.2,0,0,1);
+  }
+  .tb-btn:active{ transform:scale(.96); }
+  .tb-btn.is-on{ color:color-mix(in srgb, var(--mint) 62%, var(--ink-hi)); background:color-mix(in srgb, var(--mint) 14%, transparent); }
+  html[data-mode="light"] .tb-btn.is-on{ color:color-mix(in srgb, var(--mint) 35%, var(--ink-hi)); }
+  .tb-btn.tb-more-btn{ display:none; }
+  .tb-btn .tb-chev, .tb-btn .tb-val{ display:none; }
+  .tb-ico{ font-size:16px; line-height:1; position:relative; }
+  .tb-sep{ width:1px; height:18px; flex-shrink:0; margin:0 6px; background:rgba(var(--line-rgb),0.14); }
+  .tb-count{ font-size:11px; color:var(--ink-faint); }
+  .tb-dot{ width:8px; height:8px; flex-shrink:0; border-radius:50%; background:var(--mint); }
+
+  /* ---------- Icon hover micro-interactions ---------- */
+  /* Base: spring-eased transform on hover, not looping keyframes, so it
+     feels like a responsive UI nudge rather than a cartoon animation.
+     NOTE: the actual :hover triggers for everything in this section live in
+     a single "@media (hover: hover) and (pointer: fine)" block further down.
+     Touch devices (no real hover capability) never receive these rules at
+     all, which avoids the classic mobile bug where a tapped element's
+     :hover state "sticks" until the user taps somewhere else. */
+  i.ti{
+    display:inline-block;
+    transform-origin:center;
+    transition:transform .35s cubic-bezier(.2,.9,.3,1.5), color .2s ease, filter .3s ease;
+  }
+
+  .tb-ico i{ transition:color .12s ease; }
+  .tb-ico-pdf i{ transition:opacity .25s ease, transform .25s ease; }
+  .tb-ico-pdf.pdf-success{ color:var(--mint); }
+  .tb-ico-pdf.pdf-success i{ animation:pdf-success-pop .7s cubic-bezier(.22,1,.36,1); }
+  @keyframes pdf-success-pop{
+    0%{ transform:scale(1) rotate(0deg); opacity:1; }
+    30%{ transform:scale(.55) rotate(-45deg); opacity:.5; }
+    65%{ transform:scale(1.14) rotate(0deg); opacity:1; }
+    100%{ transform:scale(1) rotate(0deg); opacity:1; }
+  }
+  .tb-ico-pdf.pdf-revert i{ opacity:0; transform:scale(.7); }
+  /* State feedback (sound / mode icon swap, achievements count): short, ease-out, one-shot */
+  @keyframes tb-pop{ 0%{ transform:scale(.6) rotate(-40deg); opacity:.4; } 100%{ transform:none; opacity:1; } }
+  .tb-pop{ animation:tb-pop .2s cubic-bezier(0,0,0,1); }
+  @keyframes tb-bump{ 40%{ transform:scale(1.3); } 100%{ transform:scale(1); } }
+  .tb-bump{ display:inline-block; animation:tb-bump .22s cubic-bezier(.2,0,0,1); }
+
+  /* Sidebar: a colored accent bar slides in from the leading edge (like an
+     editor's activity-bar indicator), and the icon gets its own soft glow
+     halo + lift, echoing the titlebar treatment at a quieter volume.
+     On desktop it's a vertical bar on the leading edge; on mobile (where the
+     sidebar is a horizontal scroller) it becomes a bottom underline instead
+     — see the mobile media query. */
+  .side-link{ position:relative; overflow:hidden; }
+  .side-link::before{
+    content:'';
+    position:absolute;
+    inset-inline-start:0;
+    top:7px; bottom:7px;
+    width:3px;
+    border-radius:0 3px 3px 0;
+    background:var(--mint);
+    transform:scaleY(0);
+    transform-origin:center;
+    transition:transform .3s cubic-bezier(.34,1.56,.64,1);
+  }
+  .side-link.active::before{ transform:scaleY(1); }
+  .side-link .ico{ position:relative; }
+  .side-link .ico::before{
+    content:'';
+    position:absolute;
+    inset:-7px;
+    border-radius:50%;
+    background:radial-gradient(circle, var(--peri) 0%, transparent 70%);
+    opacity:0;
+    transform:scale(.5);
+    transition:opacity .3s ease, transform .4s cubic-bezier(.34,1.56,.64,1);
+    pointer-events:none;
+    z-index:-1;
+  }
+  .side-link.active .ico::before{ opacity:.22; transform:scale(1); }
+  .side-link.active .ico i{ transform:translateY(-2px) scale(1.16); }
+
+  /* ---------- Icon font fallback ----------
+     If the Tabler Icons CDN fails to load, hide the resulting empty/"tofu"
+     glyph boxes instead of showing broken icons, and force button text back
+     on (it's normally hidden on mobile to save space) so icon-only controls
+     don't turn into invisible buttons. */
+  .no-icon-font i.ti{ visibility:hidden; }
+  .no-icon-font .tb-txt{ display:inline !important; }
+
+  /* ---------- Body: sidebar + content ---------- */
+  .body-wrap{
+    flex:1;
+    display:flex;
+    min-height:0;
+  }
+  .sidebar{
+    width:190px;
+    flex-shrink:0;
+    background:var(--plum-800);
+    border-inline-start:1px solid rgba(var(--line-rgb),0.06);
+    padding:16px 10px;
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    overflow-y:auto;
+  }
+  .side-label{
+    font-family:var(--mono);
+    font-size:10.5px;
+    letter-spacing:.08em;
+    color:var(--ink-faint);
+    padding:6px 10px 10px;
+    text-transform:uppercase;
+  }
+  .side-link{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    padding:8px 10px;
+    border-radius:var(--radius-sm);
+    background:transparent;
+    border:none;
+    color:var(--ink-lo);
+    font-family:var(--sans);
+    font-size:13.5px;
+    text-align:start;
+    transition:background .2s ease, color .2s ease;
+  }
+  .side-link .ico{ font-size:15px; flex-shrink:0; opacity:.9; line-height:1; }
+  .side-link .ico::before{ display:block; }
+  .side-link.active{ background:rgba(155,140,250,0.16); color:var(--ink-hi); }
+  .side-link.active .ico{ opacity:1; }
+
+  /* ---------- Content pane ---------- */
+  .content{
+    flex:1;
+    overflow-y:auto;
+    position:relative;
+    scroll-behavior:smooth;
+  }
+  .content::-webkit-scrollbar{ width:9px; }
+  .content::-webkit-scrollbar-track{ background:transparent; }
+  .content::-webkit-scrollbar-thumb{ background:rgba(var(--line-rgb),0.12); border-radius:10px; }
+
+  .glow{
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+    background:radial-gradient(320px circle at var(--mx,50%) var(--my,20%), rgba(155,140,250,0.14), transparent 70%);
+    z-index:0;
+  }
+
+  .section{
+    position:relative;
+    z-index:1;
+    padding:52px 40px;
+    border-bottom:1px solid rgba(var(--line-rgb),0.05);
+    opacity:0;
+    transform:translateY(18px);
+    transition:opacity .6s ease, transform .6s ease;
+    /* Sections off-screen (mostly relevant on mobile, where the whole page
+       scrolls) skip layout/paint entirely until they're near the viewport.
+       contain-intrinsic-size reserves an approximate placeholder height so
+       the scrollbar/scroll position doesn't jump once a section's real
+       (unrendered) height gets measured for the first time. */
+    content-visibility:auto;
+    contain-intrinsic-size:auto 640px;
+  }
+  .section.in-view{ opacity:1; transform:translateY(0); }
+  .section:last-child{ border-bottom:none; }
+
+  /* Per-section placeholder heights (desktop), measured against each
+     section's actual rendered content instead of one flat 640px guess for
+     everything — a short section (skills) and a tall one (experience) were
+     both getting the same placeholder before, which is exactly what causes
+     a visible jump once content-visibility measures the real height. */
+  #hero{ contain-intrinsic-size:auto 460px; }
+  #about{ contain-intrinsic-size:auto 440px; }
+  #skills{ contain-intrinsic-size:auto 340px; }
+  #activity{ contain-intrinsic-size:auto 370px; }
+  #experience{ contain-intrinsic-size:auto 650px; }
+  #certifications{ contain-intrinsic-size:auto 530px; }
+  #projects{ contain-intrinsic-size:auto 700px; }
+  #contact{ contain-intrinsic-size:auto 540px; }
+
+  .comment{
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--mint);
+    opacity:.85;
+    margin:0 0 18px;
+    direction:ltr;
+    text-align:right;
+    unicode-bidi:plaintext;
+  }
+
+  h2.h-title{
+    font-family:var(--sans);
+    font-weight:800;
+    font-size:26px;
+    color:var(--ink-hi);
+    margin:0 0 22px;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero-section{ padding-top:64px; }
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--amber);
+    letter-spacing:.02em;
+    margin-bottom:14px;
+    direction:ltr;
+    text-align:right;
+    unicode-bidi:plaintext;
+  }
+  .hero-title{
+    font-family:var(--sans);
+    font-weight:900;
+    font-size:clamp(30px,4.4vw,46px);
+    color:var(--ink-hi);
+    line-height:1.25;
+    margin:0 0 14px;
+  }
+  .cursor-blink{
+    display:inline-block;
+    width:3px;
+    height:0.85em;
+    background:var(--peri);
+    margin-inline-start:4px;
+    vertical-align:-0.1em;
+    animation:blink 1s steps(1) infinite;
+  }
+  @keyframes blink{ 50%{ opacity:0; } }
+
+  .type-line{
+    font-family:var(--mono);
+    font-size:clamp(15px,2vw,19px);
+    color:var(--rose);
+    min-height:1.6em;
+    margin-bottom:18px;
+    direction:ltr;
+    text-align:right;
+    unicode-bidi:plaintext;
+  }
+  .hero-sub{
+    font-size:16px;
+    color:var(--ink-lo);
+    max-width:520px;
+    line-height:1.9;
+    margin:0 0 28px;
+  }
+  .hero-ctas{ display:flex; gap:12px; flex-wrap:wrap; margin-bottom:36px; }
+  .btn{
+    font-family:var(--sans);
+    font-weight:600;
+    font-size:14px;
+    padding:11px 22px;
+    border-radius:999px;
+    border:1px solid transparent;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .btn-primary{ background:var(--mint); color:var(--on-accent); box-shadow:0 10px 26px -10px color-mix(in srgb, var(--mint) 55%, transparent); }
+  .btn-ghost{ background:transparent; border-color:rgba(var(--line-rgb),0.16); color:var(--ink-hi); }
+
+  .stat-row{ display:flex; gap:26px; flex-wrap:wrap; }
+  .stat{ display:flex; flex-direction:column; gap:2px; }
+  .stat-num{ font-family:var(--mono); font-weight:700; font-size:21px; color:var(--ink-hi); }
+  .stat-lbl{ font-size:12px; color:var(--ink-faint); }
+
+  /* ---------- About ---------- */
+  .about-text{ font-size:15.5px; line-height:2.05; color:var(--ink-lo); max-width:620px; margin:0 0 26px; }
+  .fact-grid{ display:flex; flex-wrap:wrap; gap:10px; }
+  .fact{
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--ink-lo);
+    background:rgba(var(--line-rgb),0.05);
+    border:1px solid rgba(var(--line-rgb),0.07);
+    padding:8px 14px;
+    border-radius:999px;
+    direction:ltr;
+    unicode-bidi:plaintext;
+  }
+
+  /* ---------- Skills ---------- */
+  .skill-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .skill-card{
+    background:rgba(var(--line-rgb),0.04);
+    border:1px solid rgba(var(--line-rgb),0.07);
+    border-radius:var(--radius-md);
+    padding:18px 18px 16px;
+    border-top:3px solid var(--cat-color,var(--peri));
+  }
+  .skill-card h3{
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--cat-color,var(--peri));
+    margin:0 0 12px;
+    direction:ltr;
+    text-align:right;
+    unicode-bidi:plaintext;
+  }
+  .chip-row{ display:flex; flex-wrap:wrap; gap:8px; }
+  .chip{
+    font-size:12.5px;
+    padding:6px 12px;
+    border-radius:8px;
+    background:rgba(var(--line-rgb),0.06);
+    color:var(--ink-hi);
+    border:1px solid rgba(var(--line-rgb),0.06);
+    transition:transform .15s ease, background .15s ease;
+  }
+
+
+  /* ---------- Certifications ---------- */
+  .cert-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; perspective:1000px; }
+  .cert-card{
+    position:relative;
+    background:rgba(var(--line-rgb),0.04);
+    border:1px solid rgba(var(--line-rgb),0.07);
+    border-radius:var(--radius-md);
+    padding:18px 18px 16px;
+    border-top:3px solid var(--cat-color,var(--peri));
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    transition:transform .15s ease-out, box-shadow .22s ease, border-color .22s ease;
+  }
+  .cert-top{ display:flex; align-items:center; gap:10px; }
+  .cert-ico{ font-size:18px; flex-shrink:0; color:var(--cat-color,var(--peri)); line-height:1; }
+  .cert-title{ font-weight:700; font-size:14.5px; color:var(--ink-hi); line-height:1.5; }
+  .cert-meta{ font-family:var(--mono); font-size:12px; color:var(--ink-faint); direction:ltr; text-align:right; unicode-bidi:plaintext; }
+  .cert-actions{ display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-top:4px; }
+  .cert-link{
+    font-family:var(--mono); font-size:11.5px; color:var(--ink-hi);
+    background:transparent; border:1px solid rgba(var(--line-rgb),0.14); border-radius:7px;
+    padding:6px 12px; display:inline-flex; align-items:center; gap:5px; direction:ltr;
+    transition:background .18s ease, border-color .18s ease;
+  }
+  .cert-link i{ font-size:12px; line-height:1; }
+
+
+  /* ---------- Certification lightbox ---------- */
+  .cert-lightbox-overlay{
+    position:fixed; inset:0; z-index:97;
+    background:rgba(10,6,20,0.78);
+    backdrop-filter:blur(4px);
+    display:none;
+    align-items:center; justify-content:center;
+    padding:30px;
+  }
+  .cert-lightbox-overlay.open{ display:flex; }
+  .cert-lightbox-panel{ position:relative; max-width:min(900px,92vw); max-height:88vh; }
+  .cert-lightbox-panel img{ display:block; width:100%; height:auto; max-height:88vh; object-fit:contain; border-radius:12px; box-shadow:0 40px 90px -20px rgba(0,0,0,0.65); background:#fff; }
+  .cert-lightbox-close{
+    position:absolute; top:-16px; inset-inline-end:-16px;
+    width:40px; height:40px; border-radius:50%;
+    background:var(--plum-800); border:1px solid rgba(var(--line-rgb),0.18);
+    color:var(--ink-hi); font-size:17px; line-height:1;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 10px 24px -8px rgba(0,0,0,0.5);
+  }
+
+
+  /* ---------- Experience (git-log style) ---------- */
+  .log{ position:relative; padding-inline-start:26px; }
+  .log::before{
+    content:"";
+    position:absolute;
+    top:6px; bottom:6px;
+    inset-inline-start:6px;
+    width:2px;
+    background:linear-gradient(var(--peri),var(--mint));
+    opacity:.4;
+  }
+  .commit{ position:relative; margin-bottom:30px; }
+  .commit:last-child{ margin-bottom:0; }
+  .commit::before{
+    content:"";
+    position:absolute;
+    inset-inline-start:-26px;
+    top:5px;
+    width:12px;height:12px;
+    border-radius:50%;
+    background:var(--commit-color,var(--peri));
+    box-shadow:0 0 0 4px rgba(30,22,48,1), 0 0 0 5px var(--commit-color,var(--peri));
+  }
+  .commit-hash{
+    font-family:var(--mono);
+    font-size:12px;
+    color:var(--commit-color,var(--peri));
+    direction:ltr;
+    text-align:right;
+    unicode-bidi:plaintext;
+    margin-bottom:4px;
+  }
+  .commit-role{ font-weight:700; font-size:16px; color:var(--ink-hi); margin-bottom:2px; }
+  .commit-date{ font-family:var(--mono); font-size:12px; color:var(--ink-faint); margin-bottom:10px; direction:ltr; text-align:right; unicode-bidi:plaintext; }
+  .commit ul{ margin:0; padding-inline-start:18px; color:var(--ink-lo); font-size:14px; line-height:1.9; }
+  .commit li::marker{ color:var(--commit-color,var(--peri)); }
+
+  /* ---------- Projects ---------- */
+  .proj-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:18px; perspective:1000px; }
+  .proj-card{
+    position:relative;
+    background:rgba(var(--line-rgb),0.04);
+    border:1px solid rgba(var(--line-rgb),0.07);
+    border-radius:var(--radius-md);
+    overflow:hidden;
+    transition:transform .15s ease-out, box-shadow .22s ease, border-color .22s ease;
+  }
+  .proj-bar{ height:6px; background:var(--proj-color,var(--peri)); }
+  .proj-body{ padding:18px 18px 20px; }
+  .proj-title{ font-weight:700; font-size:16px; color:var(--ink-hi); margin:0 0 8px; }
+  .proj-desc{ font-size:13.5px; color:var(--ink-lo); line-height:1.8; margin:0 0 14px; }
+  .proj-tags{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
+  .proj-actions{ display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; }
+  .proj-tag{ font-family:var(--mono); font-size:11px; color:var(--proj-color,var(--peri)); background:rgba(var(--line-rgb),0.05); padding:4px 9px; border-radius:6px; direction:ltr; }
+  .proj-link{ font-family:var(--mono); font-size:12.5px; color:var(--ink-hi); background:transparent; border:1px solid rgba(var(--line-rgb),0.14); border-radius:7px; padding:6px 12px; display:inline-flex; align-items:center; gap:5px; direction:ltr; transition:background .18s ease, border-color .18s ease; }
+
+
+  .proj-run-overlay{
+    position:absolute; inset:0;
+    background:rgba(15,10,26,0.94);
+    display:flex; align-items:center; padding:18px;
+    opacity:0; pointer-events:none;
+    transition:opacity .25s ease;
+  }
+  .proj-run-overlay.show{ opacity:1; pointer-events:auto; }
+  .proj-run-lines{ font-family:var(--mono); font-size:12.5px; color:var(--mint); direction:ltr; text-align:right; line-height:1.9; width:100%; unicode-bidi:plaintext; }
+  .proj-run-lines .rl{ opacity:0; transform:translateY(4px); transition:opacity .3s ease, transform .3s ease; }
+  .proj-run-lines .rl.show{ opacity:1; transform:translateY(0); }
+  .proj-run-lines .ok{ color:var(--amber); }
+
+  /* ---------- Activity heatmap ---------- */
+  .heat-caption{ font-family:var(--mono); font-size:12.5px; color:var(--ink-lo); margin:0 0 16px; direction:ltr; text-align:right; unicode-bidi:plaintext; }
+  .heatmap-wrap{ overflow-x:auto; padding-bottom:6px; }
+  .heatmap{
+    display:grid;
+    grid-template-rows:repeat(7,11px);
+    grid-auto-flow:column;
+    grid-auto-columns:11px;
+    gap:3px;
+    width:max-content;
+  }
+  .heatmap-cell{
+    width:11px; height:11px; border-radius:3px;
+    background:rgba(var(--line-rgb),0.06);
+    display:inline-block;
+  }
+  .heatmap-cell[data-level="1"], .heatmap-cell.level-1{ background:color-mix(in srgb, var(--mint) 30%, transparent); }
+  .heatmap-cell[data-level="2"], .heatmap-cell.level-2{ background:color-mix(in srgb, var(--mint) 55%, transparent); }
+  .heatmap-cell[data-level="3"], .heatmap-cell.level-3{ background:color-mix(in srgb, var(--mint) 78%, transparent); }
+  .heatmap-cell[data-level="4"], .heatmap-cell.level-4{ background:var(--mint); }
+  /* Alignment filler for the days before the real calendar's first entry
+     (so day-of-week rows line up correctly) — reserves the grid slot but
+     shows nothing, rather than reading as a real "no activity" day. */
+  .heatmap-cell-pad{ visibility:hidden; }
+  .heat-legend{ display:flex; align-items:center; gap:6px; margin-top:14px; font-family:var(--mono); font-size:11px; color:var(--ink-faint); }
+
+  /* ---------- Activity heatmap: custom hover/tap tooltip ----------
+     Replaces the plain native `title` attribute (unstyled, slow OS tooltip,
+     inconsistent across browsers) with a small on-brand card. Positioned via
+     JS with getBoundingClientRect + position:fixed, since the heatmap's
+     horizontal-scroll wrapper would clip an absolutely-positioned tooltip
+     that pokes outside its own bounds. */
+  .heatmap-tooltip{
+    position:fixed;
+    left:0; top:0;
+    z-index:80;
+    pointer-events:none;
+    background:var(--plum-700);
+    color:var(--ink-hi);
+    font-family:var(--mono);
+    font-size:12px;
+    line-height:1.5;
+    padding:7px 12px;
+    border-radius:9px;
+    border:1px solid rgba(var(--line-rgb),0.14);
+    box-shadow:0 16px 32px -14px rgba(0,0,0,0.55);
+    white-space:nowrap;
+    direction:ltr;
+    text-align:right;
+    unicode-bidi:plaintext;
+    opacity:0;
+    transform:translate(-50%,-100%) translateY(-10px) scale(.92);
+    transition:opacity .15s ease, transform .15s ease;
+  }
+  .heatmap-tooltip.show{ opacity:1; transform:translate(-50%,-100%) translateY(-14px) scale(1); }
+  .heatmap-tooltip.below{ transform:translate(-50%,0) translateY(10px) scale(.92); }
+  .heatmap-tooltip.below.show{ transform:translate(-50%,0) translateY(14px) scale(1); }
+  .heatmap-tooltip::after{
+    content:'';
+    position:absolute;
+    left:calc(50% + var(--tt-arrow-shift,0px));
+    bottom:-5px;
+    width:8px; height:8px;
+    background:var(--plum-700);
+    transform:translateX(-50%) rotate(45deg);
+    border-inline-end:1px solid rgba(var(--line-rgb),0.14);
+    border-bottom:1px solid rgba(var(--line-rgb),0.14);
+  }
+  .heatmap-tooltip.below::after{
+    bottom:auto; top:-5px;
+    border-inline-end:none; border-bottom:none;
+    border-inline-start:1px solid rgba(var(--line-rgb),0.14);
+    border-top:1px solid rgba(var(--line-rgb),0.14);
+  }
+  .heatmap-tooltip .tt-count{ color:var(--mint); font-weight:700; }
+  .heatmap-tooltip .tt-sep{ color:var(--ink-faint); margin:0 6px; }
+  .heatmap-tooltip .tt-date{ color:var(--ink-lo); }
+
+  /* ---------- Command palette ---------- */
+  .cmdk-overlay{
+    position:fixed; inset:0; z-index:50;
+    background:rgba(15,10,26,0.55);
+    backdrop-filter:blur(3px);
+    display:none;
+    align-items:flex-start;
+    justify-content:center;
+    padding-top:12vh;
+  }
+  .cmdk-overlay.open{ display:flex; }
+  .cmdk-panel{
+    width:min(560px,92vw);
+    background:var(--plum-800);
+    border:1px solid rgba(var(--line-rgb),0.12);
+    border-radius:var(--radius-md);
+    box-shadow:0 30px 70px -20px rgba(0,0,0,0.6);
+    overflow:hidden;
+  }
+  .cmdk-input-row{ display:flex; align-items:center; gap:10px; padding:14px 16px; border-bottom:1px solid rgba(var(--line-rgb),0.08); }
+  .cmdk-ico{ font-size:14px; opacity:.8; }
+  .cmdk-input{
+    flex:1; background:transparent; border:none; outline:none;
+    font-family:var(--sans); font-size:15px; color:var(--ink-hi);
+  }
+  .cmdk-input::placeholder{ color:var(--ink-faint); }
+  .cmdk-esc{
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+    width:36px; height:36px;
+    background:transparent;
+    font-family:var(--mono); font-size:10.5px; color:var(--ink-faint);
+    border:1px solid rgba(var(--line-rgb),0.12); border-radius:9px;
+    transition:background .18s ease, color .18s ease, border-color .18s ease, transform .18s ease;
+  }
+  .cmdk-esc i{ font-size:14px; line-height:1; }
+  .cmdk-list, .ach-list{
+    scrollbar-width:thin;
+    scrollbar-color:rgba(var(--line-rgb),0.16) transparent;
+  }
+  .cmdk-list::-webkit-scrollbar, .ach-list::-webkit-scrollbar{ width:8px; }
+  .cmdk-list::-webkit-scrollbar-track, .ach-list::-webkit-scrollbar-track{ background:transparent; }
+  .cmdk-list::-webkit-scrollbar-thumb, .ach-list::-webkit-scrollbar-thumb{ background:rgba(var(--line-rgb),0.16); border-radius:10px; }
+  .cmdk-list{ max-height:320px; overflow-y:auto; padding:8px; }
+  .cmdk-item{
+    display:flex; align-items:center; gap:10px;
+    width:100%; text-align:start; padding:10px 12px; border-radius:8px;
+    background:transparent; border:none; color:var(--ink-lo); font-size:14px;
+  }
+  .cmdk-item .ico{ font-size:14px; }
+  .cmdk-item .sub{ margin-inline-start:auto; font-family:var(--mono); font-size:11px; color:var(--ink-faint); direction:ltr; }
+  .cmdk-item.sel{ background:rgba(155,140,250,0.18); color:var(--ink-hi); }
+  .cmdk-item.sel .ico i{ transform:scale(1.12); }
+  .cmdk-empty{ padding:16px; text-align:center; color:var(--ink-faint); font-size:13px; }
+
+  /* ---------- Achievements ---------- */
+  .ach-panel-title{ font-family:var(--sans); font-weight:700; font-size:15px; color:var(--ink-hi); }
+  .ach-panel-count{ font-family:var(--mono); font-size:12px; color:var(--ink-faint); margin-inline-start:auto; direction:ltr; }
+  .ach-list{ max-height:360px; overflow-y:auto; padding:10px; display:flex; flex-direction:column; gap:8px; }
+  .ach-item{
+    display:flex; align-items:center; gap:12px;
+    padding:12px; border-radius:10px;
+    background:rgba(var(--line-rgb),0.03);
+    border:1px solid rgba(var(--line-rgb),0.06);
+    opacity:.55;
+  }
+  .ach-item.unlocked{
+    opacity:1;
+    background:rgba(155,140,250,0.1);
+    border-color:rgba(155,140,250,0.25);
+  }
+  .ach-item .ach-ico{ font-size:16px; width:32px; height:32px; border-radius:9px; display:flex; align-items:center; justify-content:center; flex-shrink:0; background:color-mix(in srgb, var(--ach-color,var(--peri)) 16%, transparent); color:var(--ach-color,var(--peri)); }
+  .ach-item:not(.unlocked) .ach-ico{ background:rgba(var(--line-rgb),0.05); color:var(--ink-faint); }
+  .ach-item .ach-body{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+  .ach-item .ach-title{ font-size:14px; font-weight:600; color:var(--ink-hi); }
+  .ach-item .ach-desc{ font-size:12px; color:var(--ink-faint); }
+
+  .ach-toast-stack{
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:90;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    pointer-events:none;
+  }
+  .ach-toast{
+    --ach-off:120%;
+    position:relative;
+    display:flex; align-items:center; gap:12px;
+    background:linear-gradient(135deg, var(--plum-800), var(--plum-700));
+    border:1px solid rgba(var(--line-rgb),0.16);
+    border-radius:14px;
+    padding:13px 18px;
+    box-shadow:0 20px 45px -15px rgba(0,0,0,0.6), 0 0 0 1px rgba(var(--line-rgb),0.04) inset;
+    max-width:300px;
+    overflow:hidden;
+    opacity:0;
+    transform:translateX(var(--ach-off)) scale(0.85);
+    transition:transform .5s cubic-bezier(.34,1.56,.64,1), opacity .3s ease;
+  }
+  .ach-toast.show{ opacity:1; transform:translateX(0) scale(1); }
+  .ach-toast::before{
+    content:'';
+    position:absolute; inset:0;
+    background:linear-gradient(120deg, transparent, rgba(var(--line-rgb),0.14), transparent);
+    transform:translateX(-100%);
+  }
+  .ach-toast.show::before{ animation:achShine 1.4s ease .25s 1; }
+  @keyframes achShine{ to{ transform:translateX(100%); } }
+  .ach-toast .ach-ico{
+    font-size:17px; flex-shrink:0; width:36px; height:36px; border-radius:10px;
+    display:flex; align-items:center; justify-content:center;
+    background:color-mix(in srgb, var(--ach-color,var(--peri)) 22%, transparent);
+    color:var(--ach-color,var(--peri));
+  }
+  .ach-toast.show .ach-ico{ animation:achIconPop .6s cubic-bezier(.34,1.56,.64,1) .15s both; }
+  @keyframes achIconPop{
+    0%{ transform:scale(0) rotate(-20deg); }
+    60%{ transform:scale(1.35) rotate(10deg); }
+    100%{ transform:scale(1) rotate(0deg); }
+  }
+  .ach-toast .ach-toast-body{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+  .ach-toast .ach-toast-prefix{ font-family:var(--mono); font-size:10.5px; color:var(--amber); text-transform:uppercase; letter-spacing:.03em; }
+  .ach-toast .ach-toast-title{ font-size:13.5px; font-weight:700; color:var(--ink-hi); }
+  .ach-toast .ach-toast-progress{ font-family:var(--mono); font-size:10.5px; color:var(--mint); margin-top:1px; }
+  @media (max-width:760px){
+    .ach-toast-stack{ right:12px; top:12px; }
+    .ach-toast{ max-width:220px; }
+  }
+
+  /* ---------- Grand celebration ---------- */
+  .grand-overlay{
+    position:fixed; inset:0; z-index:96;
+    background:rgba(10,6,20,0.6);
+    backdrop-filter:blur(3px);
+    display:none;
+    align-items:center; justify-content:center;
+    padding:20px;
+  }
+  .grand-overlay.open{ display:flex; }
+  .grand-card{
+    background:var(--plum-800);
+    border:1px solid rgba(var(--line-rgb),0.16);
+    border-radius:20px;
+    padding:42px 34px;
+    text-align:center;
+    max-width:380px;
+    box-shadow:0 40px 90px -20px rgba(0,0,0,0.65);
+    animation:grandPop .55s cubic-bezier(.34,1.56,.64,1);
+  }
+  @keyframes grandPop{
+    0%{ transform:scale(0.7); opacity:0; }
+    100%{ transform:scale(1); opacity:1; }
+  }
+  .grand-emoji{ font-size:58px; margin-bottom:16px; animation:grandBounce 1.5s ease-in-out infinite; }
+  @keyframes grandBounce{
+    0%,100%{ transform:translateY(0); }
+    50%{ transform:translateY(-10px); }
+  }
+  .grand-title{ font-family:var(--sans); font-weight:800; font-size:19px; color:var(--ink-hi); margin-bottom:8px; line-height:1.5; }
+  .grand-sub{ font-size:14px; color:var(--ink-lo); margin-bottom:24px; line-height:1.8; }
+
+  .grand-balloon{
+    position:fixed;
+    bottom:-120px;
+    width:46px; height:58px;
+    border-radius:50% 50% 48% 48% / 58% 58% 42% 42%;
+    z-index:94;
+    pointer-events:none;
+    animation-name:balloonRise;
+    animation-timing-function:ease-in;
+    animation-fill-mode:forwards;
+    box-shadow: inset -9px -9px 14px rgba(0,0,0,0.18), inset 8px 8px 14px rgba(255,255,255,0.28);
+  }
+  .grand-balloon::after{
+    content:'';
+    position:absolute;
+    bottom:-38px; left:50%;
+    width:1px; height:38px;
+    background:rgba(var(--line-rgb),0.35);
+    transform:translateX(-50%);
+  }
+  @keyframes balloonRise{
+    0%{ transform:translate(0,0); opacity:0; }
+    8%{ opacity:.95; }
+    50%{ transform:translate(26px,-58vh); }
+    100%{ transform:translate(-18px,-118vh); opacity:.85; }
+  }
+  .firework-particle{
+    position:absolute;
+    border-radius:50%;
+    animation:fireworkPop 900ms ease-out forwards;
+  }
+  @keyframes fireworkPop{
+    0%{ transform:translate(0,0) scale(1); opacity:1; }
+    100%{ transform:translate(var(--dx),var(--dy)) scale(0.25); opacity:0; }
+  }
+
+
+  /* ---------- Back to top (mobile) ----------
+     48px is the standard FAB/touch-target size (Material Design's minimum
+     comfortable tap target, above Apple HIG's 44px floor). The button sits
+     bottom-end with 16px margin from the safe area, the placement mobile UX
+     guidelines (NN/g, Material) converge on for a thumb-reachable, non-
+     content-obscuring scroll-to-top control. */
+  .back-to-top{
+    display:none;
+    position:fixed;
+    z-index:60;
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background:var(--plum-800);
+    color:#fff;
+    border:none;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 14px 30px -10px rgba(0,0,0,0.5);
+    opacity:0;
+    transform:translateY(12px);
+    transition:opacity .25s ease, transform .25s ease;
+    pointer-events:none;
+  }
+  .back-to-top.show{ opacity:1; transform:translateY(0); pointer-events:auto; }
+  .back-to-top i{ font-size:18px; line-height:1; position:relative; z-index:1; }
+  .back-to-top-ring{ position:absolute; inset:0; width:48px; height:48px; transform:rotate(-90deg); }
+  .back-to-top-ring circle{ fill:none; stroke-width:3; }
+  .back-to-top-ring .track{ stroke:rgba(255,255,255,0.28); }
+  .back-to-top-ring .fill{ stroke:#fff; stroke-linecap:round; transition:stroke-dashoffset .1s linear; }
+  html[data-mode="light"] .back-to-top i{ color:var(--ink-hi); }
+  html[data-mode="light"] .back-to-top-ring .track{ stroke:rgba(30,22,48,0.16); }
+  html[data-mode="light"] .back-to-top-ring .fill{ stroke:var(--ink-hi); }
+
+  /* ---------- QR share ---------- */
+  .qr-box{ display:flex; align-items:center; gap:16px; margin-top:22px; }
+  .qr-box img{ width:96px; height:96px; border-radius:10px; background:#fff; padding:6px; }
+  .qr-caption{ font-family:var(--mono); font-size:12px; color:var(--ink-faint); max-width:220px; line-height:1.7; }
+
+  /* ---------- Contact ---------- */
+  .shell{
+    background:rgba(0,0,0,0.22);
+    border:1px solid rgba(var(--line-rgb),0.08);
+    border-radius:var(--radius-md);
+    padding:20px 22px;
+    max-width:520px;
+  }
+  .shell-line{
+    font-family:var(--mono);
+    font-size:13.5px;
+    color:var(--ink-lo);
+    margin-bottom:10px;
+    direction:ltr;
+    text-align:right;
+    unicode-bidi:plaintext;
+    position:relative;
+    opacity:0;
+    transform:translateX(6px);
+    transition:opacity .4s ease, transform .4s ease;
+  }
+  .shell-line.has-copy{ display:flex; align-items:center; gap:10px; flex-direction:row-reverse; }
+  .shell-line-text{ direction:ltr; text-align:right; unicode-bidi:plaintext; flex:1; min-width:0; }
+  .section.in-view .shell-line{ opacity:1; transform:translateX(0); }
+  .shell-line:nth-child(1){ transition-delay:.05s; }
+  .shell-line:nth-child(2){ transition-delay:.15s; }
+  .shell-line:nth-child(3){ transition-delay:.25s; }
+  .shell-line:nth-child(4){ transition-delay:.35s; }
+  .shell-line:nth-child(5){ transition-delay:.45s; }
+  .shell-line:nth-child(6){ transition-delay:.55s; }
+  .shell-line a{ color:var(--peri); white-space:nowrap; }
+
+  .shell-ico{ display:inline-flex; color:var(--mint); font-size:13px; opacity:.85; margin-inline-end:2px; vertical-align:-1px; }
+  .shell-line .copy-btn{ flex-shrink:0; margin-inline-start:0; }
+  .copy-btn{
+    display:inline-flex; align-items:center; gap:4px;
+    font-family:var(--mono); font-size:11px; color:var(--ink-faint);
+    background:var(--plum-800); border:1px solid rgba(var(--line-rgb),0.14); border-radius:6px;
+    padding:7px 10px; min-height:24px; vertical-align:middle;
+    transition:background .18s ease, color .18s ease, border-color .18s ease;
+  }
+
+  .copy-btn.copied{ color:var(--mint); border-color:var(--mint); }
+  .copy-btn i{ font-size:12px; line-height:1; vertical-align:-1px; }
+  .prompt{ color:var(--mint); }
+  .ok{ color:var(--amber); }
+
+  /* ---------- Language (English mode) ---------- */
+  html[data-lang="en"] .titlebar{ direction:ltr; }
+  html[data-lang="en"] .tab{ direction:ltr; }
+  html[data-lang="en"] .comment,
+  html[data-lang="en"] .eyebrow,
+  html[data-lang="en"] .type-line,
+  html[data-lang="en"] .skill-card h3,
+  html[data-lang="en"] .commit-hash,
+  html[data-lang="en"] .commit-date,
+  html[data-lang="en"] .proj-run-lines,
+  html[data-lang="en"] .heat-caption,
+  html[data-lang="en"] .shell-line,
+  html[data-lang="en"] .shell-line-text{
+    text-align:left;
+  }
+  html[data-lang="en"] .shell-line.has-copy{ flex-direction:row; }
+
+  /* ---------- Hover effects (mouse/trackpad only) ----------
+     Every :hover-triggered rule in the site lives here, gated behind
+     (hover: hover) and (pointer: fine). Touch devices (most phones/tablets,
+     including Android) don't match this query, so they never receive these
+     rules — which is what fixes the classic mobile bug where a tapped
+     button's hover/animation state "sticks" until the user taps elsewhere
+     on the screen. Tap feedback on touch still works via the .active /
+     .sel / .unlocked state classes defined above. */
+  @media (hover:hover) and (pointer:fine){
+    .tab:hover{ color:var(--ink-hi); background:rgba(var(--line-rgb),0.03); }
+    .tb-btn:hover{ background:rgba(var(--line-rgb),0.08); color:var(--ink-hi); }
+    .tb-btn.is-on:hover{ background:color-mix(in srgb, var(--mint) 22%, transparent); }
+
+    .side-link:hover{ background:rgba(var(--line-rgb),0.05); color:var(--ink-hi); }
+    .side-link:hover::before{ transform:scaleY(1); }
+    .side-link:hover .ico::before{ opacity:.22; transform:scale(1); }
+    .side-link:hover .ico i{ transform:translateY(-2px) scale(1.16); }
+
+    .content::-webkit-scrollbar-thumb:hover{ background:rgba(var(--line-rgb),0.2); }
+    .cmdk-list::-webkit-scrollbar-thumb:hover, .ach-list::-webkit-scrollbar-thumb:hover{ background:rgba(var(--line-rgb),0.28); }
+    .cmdk-esc:hover{ background:rgba(var(--line-rgb),0.08); color:var(--ink-hi); border-color:rgba(var(--line-rgb),0.22); transform:scale(1.06); }
+    .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 14px 30px -10px color-mix(in srgb, var(--mint) 68%, transparent); }
+    .btn-ghost:hover{ background:rgba(var(--line-rgb),0.06); transform:translateY(-2px); }
+    .chip:hover{ transform:translateY(-2px); background:rgba(var(--line-rgb),0.11); }
+    .cert-card:hover{ box-shadow:0 18px 34px -18px rgba(0,0,0,0.5); border-color:rgba(var(--line-rgb),0.16); }
+    .cert-card:hover .cert-ico i{ transform:scale(1.12); }
+    .cert-link:hover{ background:rgba(var(--line-rgb),0.08); border-color:var(--cat-color,var(--peri)); }
+    .cert-link:hover i{ transform:scale(1.15) translateY(-1px); }
+    .cert-lightbox-close:hover{ background:var(--plum-700); }
+    .proj-card:hover{ box-shadow:0 18px 34px -18px rgba(0,0,0,0.5); border-color:rgba(var(--line-rgb),0.16); }
+    .proj-link:hover{ color:var(--ink-hi); background:rgba(var(--line-rgb),0.08); border-color:var(--proj-color,var(--peri)); }
+    .proj-link:hover i{ transform:scale(1.15) translateY(-1px); }
+    .cmdk-item:hover{ background:rgba(155,140,250,0.18); color:var(--ink-hi); }
+    .cmdk-item:hover .ico i{ transform:scale(1.12); }
+    .shell-line a:hover{ color:var(--amber); }
+    .shell-line:hover .shell-ico i{ transform:scale(1.18); }
+    .copy-btn:hover{ background:rgba(var(--line-rgb),0.08); color:var(--ink-hi); border-color:rgba(var(--line-rgb),0.2); }
+    .copy-btn:hover i{ transform:rotate(-10deg) scale(1.12); }
+    .heatmap-cell:not(.heatmap-cell-pad):hover{ box-shadow:0 0 0 1.5px var(--ink-hi); }
+    .ach-item.unlocked:hover .ach-ico i{ transform:scale(1.14) rotate(-6deg); }
+    .back-to-top:hover i{ transform:translateY(-2px); }
+  }
+
+  /* ---------- Compact toolbar (tablet + phone, <=1000px) ----------
+     Search + Language stay in the bar; the five secondary controls move into a
+     Settings menu with always-visible labels and 44px rows. */
+  @media (max-width:1000px){
+    .tb-btn{ min-height:44px; min-width:44px; justify-content:center; }
+    .tb-btn.tb-more-btn{ display:flex; }
+    .tb-btn .tb-chev{ display:inline-block; font-size:14px; transition:transform .2s cubic-bezier(.2,0,0,1); }
+    .tb-btn.tb-more-btn[aria-expanded="true"] .tb-chev{ transform:rotate(180deg); }
+    .tb-utils > .tb-sep{ display:none; }
+    .tb-more{
+      display:none; position:absolute; top:calc(100% + 4px); inset-inline-end:10px; z-index:30;
+      width:min(300px, calc(100vw - 20px)); flex-direction:column; gap:2px; padding:6px;
+      background:var(--plum-800); border:1px solid rgba(var(--line-rgb),0.12);
+      border-radius:var(--radius-md); box-shadow:0 24px 50px -18px rgba(var(--shadow-rgb),0.7);
+    }
+    .tb-utils.menu-open .tb-more{ display:flex; }
+    .tb-more .tb-btn{ width:100%; justify-content:flex-start; gap:12px; padding:0 12px; font-family:var(--sans); font-size:14px; }
+    .tb-more .tb-ico{ font-size:18px; }
+    .tb-more .tb-btn .tb-txt{ display:inline; color:var(--ink-hi); }
+    .tb-more .tb-btn .tb-val{ display:inline; margin-inline-start:auto; font-size:12.5px; color:var(--ink-faint); }
+    .tb-more .tb-count{ margin-inline-start:auto; font-size:12.5px; }
+    .tb-more .tb-sep{ width:auto; height:1px; margin:4px 8px; }
+  }
+
+  /* ---------- Mobile ---------- */
+  @media (max-width:760px){
+    html,body{ height:auto; overflow:visible; overflow-x:hidden; overscroll-behavior:auto; }
+    .desktop{ position:static; padding:0; height:auto; min-height:100%; display:block; overflow:visible; }
+    .window{ width:100%; height:auto; min-height:100dvh; border-radius:0; display:flex; flex-direction:column; overflow:visible; }
+    .titlebar{
+      gap:10px;
+      position:sticky;
+      top:0;
+      z-index:15;
+      height:calc(46px + env(safe-area-inset-top, 0px));
+      padding-top:env(safe-area-inset-top, 0px);
+      padding-left:calc(16px + env(safe-area-inset-left, 0px));
+      padding-right:calc(16px + env(safe-area-inset-right, 0px));
+    }
+    .tabs{ display:none; }
+    .tb-utils{ gap:2px; margin-inline-start:auto; }
+    .tb-txt:not(.tb-keep){ display:none; }
+    .tb-btn{ padding:0 10px; }
+    .body-wrap{ flex-direction:column; flex:none; }
+    .sidebar{
+      width:100%;
+      flex-direction:row;
+      overflow-x:auto;
+      border-inline-start:none;
+      border-bottom:1px solid rgba(var(--line-rgb),0.06);
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left:calc(10px + env(safe-area-inset-left, 0px));
+      padding-right:calc(10px + env(safe-area-inset-right, 0px));
+      gap:6px;
+      position:sticky;
+      top:calc(46px + env(safe-area-inset-top, 0px));
+      z-index:14;
+    }
+    .side-label{ display:none; }
+    .side-link{ white-space:nowrap; flex-shrink:0; }
+    /* Sidebar is a horizontal scroller here, so the leading-edge vertical
+       accent bar (built for the vertical desktop layout) doesn't read well.
+       Swap it for a bottom underline that matches the row direction. */
+    .side-link::before{
+      inset-inline-start:8px;
+      inset-inline-end:8px;
+      top:auto;
+      bottom:1px;
+      width:auto;
+      height:3px;
+      border-radius:3px;
+      transform:scaleX(0);
+    }
+    .side-link.active::before{ transform:scaleX(1); }
+    .content{ overflow:visible; height:auto; flex:none; }
+    .section{
+      padding-top:38px;
+      padding-bottom:38px;
+      padding-left:calc(22px + env(safe-area-inset-left, 0px));
+      padding-right:calc(22px + env(safe-area-inset-right, 0px));
+    }
+    .hero-section{ padding-top:40px; }
+    /* Re-measured placeholder heights for the single-column mobile layout —
+       grids that sit 3-across on desktop (certifications, projects) stack
+       into one column here and run much taller. */
+    #hero{ contain-intrinsic-size:auto 480px; }
+    #about{ contain-intrinsic-size:auto 600px; }
+    #skills{ contain-intrinsic-size:auto 570px; }
+    #activity{ contain-intrinsic-size:auto 340px; }
+    #experience{ contain-intrinsic-size:auto 800px; }
+    #certifications{ contain-intrinsic-size:auto 920px; }
+    #projects{ contain-intrinsic-size:auto 1320px; }
+    #contact{ contain-intrinsic-size:auto 540px; }
+    .stat-row{ gap:18px; }
+    .cmdk-overlay{ padding-top:6vh; }
+    .cmdk-input{ font-size:16px; }
+    .back-to-top{
+      display:flex;
+      right:calc(16px + env(safe-area-inset-right, 0px));
+      bottom:calc(16px + env(safe-area-inset-bottom, 0px));
+    }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    .section{ transition:none; opacity:1; transform:none; }
+    .shell-line{ transition:none; opacity:1; transform:none; }
+    .cursor-blink{ animation:none; }
+    .boot-screen{ transition:none; }
+    .boot-line{ transition:none; }
+    .ach-toast{ transition:none; }
+    .ach-toast.show::before{ animation:none; }
+    .ach-toast.show .ach-ico{ animation:none; }
+    .grand-card{ animation:none; }
+    .grand-emoji{ animation:none; }
+    .grand-balloon, .firework-particle{ display:none; }
+    .back-to-top{ transition:none; }
+    .heatmap-tooltip{ transition:none; }
+    i.ti{ transition:none; animation:none; filter:none !important; }
+    .tb-bump, .tb-btn, .tb-btn .tb-chev, .tb-more{ transition:none; animation:none; }
+    .tb-ico::before, .tb-ico::after, .side-link::before, .side-link .ico::before{ transition:none; animation:none; }
+  }
+
+  /* ---------- Print / PDF export ---------- */
+  @media print{
+    :root{
+      --ink-hi:#211738;
+      --ink-lo:#453a66;
+      --ink-faint:#6b5f8a;
+    }
+    body{ background:#fff; }
+    .boot-screen{ display:none !important; }
+    .desktop{ background:#fff; padding:0; min-height:auto; display:block; }
+    .window{ width:100%; height:auto; box-shadow:none; border-radius:0; background:#fff; }
+    .titlebar, .sidebar, .glow, .cmdk-overlay{ display:none !important; }
+    .body-wrap{ display:block; }
+    .content{ overflow:visible; height:auto; }
+    .section{ opacity:1 !important; transform:none !important; padding:14px 4px; border-bottom:1px solid #e5e0f5; page-break-inside:avoid; content-visibility:visible !important; }
+    .shell{ background:#f7f5ff; border-color:#e5e0f5; }
+    .chip, .proj-tag, .fact, .heatmap-cell{ background:#f0edfb !important; border-color:#e0d9f7; }
+    .skill-card, .proj-card, .cert-card{ background:#fff; border-color:#e5e0f5; box-shadow:none; }
+    .proj-card:hover, .cert-card:hover{ transform:none; box-shadow:none; }
+    a{ color:#5b4fc7; text-decoration:underline; }
+    .hero-ctas, .heat-legend, .copy-btn, .cert-actions, .cert-lightbox-overlay, .back-to-top{ display:none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="boot-screen" id="bootScreen">
+  <div class="boot-box">
+    <div class="boot-lines" id="bootLines"></div>
+    <div class="boot-progress-row">
+      <span class="boot-bar-wrap"><span class="boot-bar-fill" id="bootBarFill"></span></span>
+      <span class="boot-percent" id="bootPercent">0%</span>
+    </div>
+    <div class="boot-skip">press any key to skip</div>
+  </div>
+</div>
+<script>
+  (function(){
+    try{
+      if(window.localStorage && localStorage.getItem('alifazeli_booted') === '1'){
+        var bs = document.getElementById('bootScreen');
+        if(bs) bs.style.display = 'none';
+      }
+    }catch(e){}
+  })();
+</script>
+
+<div class="desktop">
+  <canvas id="particleCanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="window" id="window">
+    <div class="titlebar">
+      <div class="traffic-lights"><span></span><span></span><span></span></div>
+      <nav class="tabs" id="tabs" data-i18n-aria="nav_tabs_aria" aria-label="Open tabs">
+        <button class="tab" type="button" data-target="hero"><span class="dot"></span><span data-i18n="file_hero">hero.tsx</span></button>
+        <button class="tab" type="button" data-target="about"><span class="dot"></span><span data-i18n="file_about">about-me.md</span></button>
+        <button class="tab" type="button" data-target="skills"><span class="dot"></span><span data-i18n="file_skills">skills.json</span></button>
+        <button class="tab" type="button" data-target="activity"><span class="dot"></span><span data-i18n="file_activity">activity.svg</span></button>
+        <button class="tab" type="button" data-target="experience"><span class="dot"></span><span data-i18n="file_experience">experience.log</span></button>
+        <button class="tab" type="button" data-target="certifications"><span class="dot"></span><span data-i18n="file_certifications">certifications.json</span></button>
+        <button class="tab" type="button" data-target="projects"><span class="dot"></span><span data-i18n="file_projects">projects/</span></button>
+        <button class="tab" type="button" data-target="contact"><span class="dot"></span><span data-i18n="file_contact">contact.sh</span></button>
+      </nav>
+      <div class="tb-utils" id="tbUtils">
+        <button class="tb-btn" type="button" id="cmdkBtn" data-i18n-title="tb_search_title" title="Search (Ctrl+K)"><span class="tb-ico tb-ico-search"><i class="ti ti-search" aria-hidden="true"></i></span><span class="tb-txt" data-i18n="tb_search_label">Search</span></button>
+        <i class="tb-sep" aria-hidden="true"></i>
+        <button class="tb-btn" type="button" id="langBtn" title="زبان / Language"><span class="tb-ico tb-ico-lang"><i class="ti ti-world" aria-hidden="true"></i></span><span class="tb-txt tb-keep" id="langLabel">EN</span></button>
+        <button class="tb-btn tb-more-btn" type="button" id="moreBtn" aria-expanded="false" aria-controls="tbMore" data-i18n-title="tb_more_title" title="Settings" data-i18n-aria="tb_more_title" aria-label="Settings"><span class="tb-ico"><i class="ti ti-settings" aria-hidden="true"></i></span><span class="tb-txt" data-i18n="tb_more_label">Settings</span><i class="ti ti-chevron-down tb-chev" aria-hidden="true"></i></button>
+        <div class="tb-more" id="tbMore">
+          <button class="tb-btn is-on" type="button" id="soundBtn" aria-pressed="true" data-i18n-title="tb_sound_title" title="Typing sound (on/off)"><span class="tb-ico tb-ico-sound" id="soundIco"><i class="ti ti-volume" aria-hidden="true"></i></span><span class="tb-txt" data-i18n="tb_sound_label">Sound</span><span class="tb-val" id="soundVal" data-i18n="tb_sound_on">On</span></button>
+          <button class="tb-btn" type="button" id="modeBtn" data-i18n-title="tb_mode_title" title="Switch light/dark mode"><span class="tb-ico tb-ico-mode"><i class="ti ti-moon" aria-hidden="true"></i></span><span class="tb-txt" data-i18n="tb_mode_name">Mode</span><span class="tb-val" id="modeVal" data-i18n="tb_mode_label">Dark</span></button>
+          <button class="tb-btn" type="button" id="themeBtn" data-i18n-title="tb_theme_title" title="Switch color theme"><span class="tb-ico tb-ico-theme"><i class="ti ti-palette" aria-hidden="true"></i></span><span class="tb-txt" data-i18n="tb_theme_name">Theme</span><span class="tb-val" id="themeVal">Aurora</span><i class="tb-dot" aria-hidden="true"></i></button>
+          <i class="tb-sep" aria-hidden="true"></i>
+          <button class="tb-btn" type="button" id="pdfBtn" data-i18n-title="tb_pdf_title" title="Download PDF"><span class="tb-ico tb-ico-pdf"><i class="ti ti-download" aria-hidden="true"></i></span><span class="tb-txt">PDF</span></button>
+          <button class="tb-btn" type="button" id="achBtn" data-i18n-title="ach_panel_title" title="Achievements"><span class="tb-ico tb-ico-ach"><i class="ti ti-trophy" aria-hidden="true"></i></span><span class="tb-txt" data-i18n="ach_panel_title">Achievements</span><span class="tb-count" id="achLabel">0/6</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-wrap">
+      <nav class="sidebar" id="sidebar" data-i18n-aria="nav_sidebar_aria" aria-label="Section navigation">
+        <div class="side-label">EXPLORER</div>
+        <button class="side-link" type="button" data-target="hero"><span class="ico"><i class="ti ti-home" aria-hidden="true"></i></span><span data-i18n="nav_home">Home</span></button>
+        <button class="side-link" type="button" data-target="about"><span class="ico"><i class="ti ti-user" aria-hidden="true"></i></span><span data-i18n="nav_about">About Me</span></button>
+        <button class="side-link" type="button" data-target="skills"><span class="ico"><i class="ti ti-puzzle" aria-hidden="true"></i></span><span data-i18n="nav_skills">Skills</span></button>
+        <button class="side-link" type="button" data-target="activity"><span class="ico"><i class="ti ti-chart-bar" aria-hidden="true"></i></span><span data-i18n="nav_activity">Coding Activity</span></button>
+        <button class="side-link" type="button" data-target="experience"><span class="ico"><i class="ti ti-briefcase" aria-hidden="true"></i></span><span data-i18n="nav_experience">Experience</span></button>
+        <button class="side-link" type="button" data-target="certifications"><span class="ico"><i class="ti ti-certificate" aria-hidden="true"></i></span><span data-i18n="nav_certifications">Certifications</span></button>
+        <button class="side-link" type="button" data-target="projects"><span class="ico"><i class="ti ti-rocket" aria-hidden="true"></i></span><span data-i18n="nav_projects">Projects</span></button>
+        <button class="side-link" type="button" data-target="contact"><span class="ico"><i class="ti ti-mail" aria-hidden="true"></i></span><span data-i18n="nav_contact">Contact Me</span></button>
+      </nav>
+
+      <main class="content" id="content">
+        <div class="glow" id="glow"></div>
+
+        <!-- HERO -->
+        <section class="section hero-section" id="hero">
+          <div class="eyebrow" data-i18n="hero_eyebrow">// about a developer</div>
+          <h1 class="hero-title"><span data-i18n="hero_title">Hi, I’m Ali Fazeli</span><span class="cursor-blink"></span></h1>
+          <div class="type-line"><span id="typeText">Full-Stack Developer</span><span class="cursor-blink"></span></div>
+          <p class="hero-sub" data-i18n="hero_sub">I build, I break, I rebuild — until it works. Here’s a quick look at what I do.</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary jump" type="button" data-target="projects" data-i18n="cta_projects">View Projects ↓</button>
+            <button class="btn btn-ghost jump" type="button" data-target="contact" data-i18n="cta_contact">Contact Me</button>
+            <button class="btn btn-ghost" type="button" id="pdfBtnHero" data-i18n="cta_pdf">⬇ Download PDF</button>
+          </div>
+          <div class="stat-row">
+            <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-lbl" data-i18n="stat_years">Years Experience</span></div>
+            <div class="stat"><span class="stat-num" data-count="40">0</span><span class="stat-lbl" data-i18n="stat_projects">Projects Completed</span></div>
+            <div class="stat"><span class="stat-num">∞</span><span class="stat-lbl" data-i18n="stat_coffee">Cups of Coffee</span></div>
+          </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+          <div class="comment" data-i18n="about_comment">/* a quick line about me */</div>
+          <h2 class="h-title" data-i18n="about_title">About Me</h2>
+          <p class="about-text" data-i18n="about_text">Ever since I wrote my first line of code, I’ve been hooked on how a few simple characters can turn into something real and useful. These days I mostly work on the web — from crafting the UI to building the API and database. What matters most to me is that the code I write actually works, and that I can still understand it six months later.</p>
+          <div class="fact-grid">
+            <span class="fact" data-i18n="fact_education">🎓 education: "Computer Engineering, Azad University"</span>
+            <span class="fact" data-i18n="fact_location">📍 location: "Tehran, Iran"</span>
+            <span class="fact" data-i18n="fact_languages">🗣 languages: ["Persian","English"]</span>
+          </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+          <div class="comment" data-i18n="skills_comment">/* what I work with */</div>
+          <h2 class="h-title" data-i18n="skills_title">Skills</h2>
+          <div class="skill-grid">
+            <div class="skill-card" style="--cat-color:var(--coral)">
+              <h3 data-i18n-aria="skill_cat_frontend_aria" aria-label="Frontend skills">"frontend": [</h3>
+              <div class="chip-row">
+                <span class="chip">React</span><span class="chip">Next.js</span>
+                <span class="chip">TypeScript</span><span class="chip">Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="skill-card" style="--cat-color:var(--mint)">
+              <h3 data-i18n-aria="skill_cat_backend_aria" aria-label="Backend skills">"backend": [</h3>
+              <div class="chip-row">
+                <span class="chip">Node.js</span><span class="chip">Python</span>
+                <span class="chip">PostgreSQL</span><span class="chip">Redis</span>
+              </div>
+            </div>
+            <div class="skill-card" style="--cat-color:var(--amber)">
+              <h3 data-i18n-aria="skill_cat_devops_aria" aria-label="DevOps and tools">"devops_and_tools": [</h3>
+              <div class="chip-row">
+                <span class="chip">Docker</span><span class="chip">Git</span>
+                <span class="chip">AWS</span><span class="chip">CI/CD</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ACTIVITY -->
+        <section class="section" id="activity">
+          <div class="comment" data-i18n="activity_comment">/* coding activity map */</div>
+          <h2 class="h-title" data-i18n="activity_title">Coding Activity</h2>
+          <p class="heat-caption"><span id="heatTotal">0</span> <span data-i18n="heat_caption_suffix">contributions in the last year</span></p>
+          <div class="heatmap-wrap">
+            <div class="heatmap" id="heatmap"></div>
+          </div>
+          <div class="heat-legend">
+            <span data-i18n="heat_less">Less</span>
+            <span class="heatmap-cell" data-level="0"></span>
+            <span class="heatmap-cell" data-level="1"></span>
+            <span class="heatmap-cell" data-level="2"></span>
+            <span class="heatmap-cell" data-level="3"></span>
+            <span class="heatmap-cell" data-level="4"></span>
+            <span data-i18n="heat_more">More</span>
+          </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experience">
+          <div class="comment">$ git log --oneline --graph</div>
+          <h2 class="h-title" data-i18n="exp_title">Experience</h2>
+          <div class="log">
+            <div class="commit" style="--commit-color:var(--peri)">
+              <div class="commit-hash">commit a3f9c1d</div>
+              <div class="commit-role" data-i18n="commit1_role">Senior Front-end Developer — Example Co.</div>
+              <div class="commit-date" data-i18n="commit1_date">2023 — Present</div>
+              <ul>
+                <li data-i18n="commit1_li1">Redesigned the core product UI, boosting load speed by 30%</li>
+                <li data-i18n="commit1_li2">Built a shared component system used across teams</li>
+                <li data-i18n="commit1_li3">Mentored three junior developers</li>
+              </ul>
+            </div>
+            <div class="commit" style="--commit-color:var(--mint)">
+              <div class="commit-hash">commit 7d2e8b4</div>
+              <div class="commit-role" data-i18n="commit2_role">Software Developer — Second Co.</div>
+              <div class="commit-date" data-i18n="commit2_date">2021 — 2023</div>
+              <ul>
+                <li data-i18n="commit2_li1">Built and maintained APIs with Node.js and PostgreSQL</li>
+                <li data-i18n="commit2_li2">Introduced automated tests, cutting production bugs by 40%</li>
+              </ul>
+            </div>
+            <div class="commit" style="--commit-color:var(--amber)">
+              <div class="commit-hash">commit 1a4f0c9</div>
+              <div class="commit-role" data-i18n="commit3_role">Junior Developer — First Co.</div>
+              <div class="commit-date" data-i18n="commit3_date">2019 — 2021</div>
+              <ul>
+                <li data-i18n="commit3_li1">Helped build the product’s first version from scratch</li>
+                <li data-i18n="commit3_li2">Learned React and the modern JavaScript ecosystem</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="section" id="certifications">
+          <div class="comment" data-i18n="cert_comment">/* certificates and courses I’ve completed */</div>
+          <h2 class="h-title" data-i18n="cert_title">Certifications</h2>
+          <div class="cert-grid">
+            <div class="cert-card" style="--cat-color:var(--coral)">
+              <div class="cert-top"><span class="cert-ico"><i class="ti ti-brand-python" aria-hidden="true"></i></span><span class="cert-title" data-i18n="cert1_title">Python Programming for Beginners 1</span></div>
+              <div class="cert-meta"><span data-i18n="cert1_issuer">Tehran Institute of Technology</span> · <span data-i18n="cert1_date">2022</span></div>
+              <div class="cert-actions">
+                <a class="cert-link" href="https://mftplus.com" target="_blank" rel="noopener"><i class="ti ti-external-link" aria-hidden="true"></i><span data-i18n="cert_site_link">Website</span></a>
+                <button class="cert-link cert-show-img" type="button" data-img="certs/cert1.jpg"><i class="ti ti-photo" aria-hidden="true"></i><span data-i18n="cert_show_img_btn">Show Image</span></button>
+              </div>
+            </div>
+            <div class="cert-card" style="--cat-color:var(--peri)">
+              <div class="cert-top"><span class="cert-ico"><i class="ti ti-brand-python" aria-hidden="true"></i></span><span class="cert-title" data-i18n="cert2_title">Python Programming for Beginners 2</span></div>
+              <div class="cert-meta"><span data-i18n="cert2_issuer">Tehran Institute of Technology</span> · <span data-i18n="cert2_date">2022–2023</span></div>
+              <div class="cert-actions">
+                <a class="cert-link" href="https://mftplus.com" target="_blank" rel="noopener"><i class="ti ti-external-link" aria-hidden="true"></i><span data-i18n="cert_site_link">Website</span></a>
+                <button class="cert-link cert-show-img" type="button" data-img="certs/cert2.jpg"><i class="ti ti-photo" aria-hidden="true"></i><span data-i18n="cert_show_img_btn">Show Image</span></button>
+              </div>
+            </div>
+            <div class="cert-card" style="--cat-color:var(--mint)">
+              <div class="cert-top"><span class="cert-ico"><i class="ti ti-brand-python" aria-hidden="true"></i></span><span class="cert-title" data-i18n="cert3_title">Programming with Python</span></div>
+              <div class="cert-meta"><span data-i18n="cert3_issuer">Tehran Institute of Technology</span> · <span data-i18n="cert3_date">2023</span></div>
+              <div class="cert-actions">
+                <a class="cert-link" href="https://mftplus.com" target="_blank" rel="noopener"><i class="ti ti-external-link" aria-hidden="true"></i><span data-i18n="cert_site_link">Website</span></a>
+                <button class="cert-link cert-show-img" type="button" data-img="certs/cert3.jpg"><i class="ti ti-photo" aria-hidden="true"></i><span data-i18n="cert_show_img_btn">Show Image</span></button>
+              </div>
+            </div>
+            <div class="cert-card" style="--cat-color:var(--amber)">
+              <div class="cert-top"><span class="cert-ico"><i class="ti ti-robot" aria-hidden="true"></i></span><span class="cert-title" data-i18n="cert4_title">Introduction to Artificial Intelligence with Python (CS50AI)</span></div>
+              <div class="cert-meta"><span data-i18n="cert4_issuer">Harvard University (CS50)</span> · <span data-i18n="cert4_date">2024</span></div>
+              <div class="cert-actions">
+                <a class="cert-link" href="https://cs50.harvard.edu/certificates/20ac31dd-b335-4dc2-a2a4-f14b6750081c" target="_blank" rel="noopener"><i class="ti ti-external-link" aria-hidden="true"></i><span data-i18n="cert_site_link">Website</span></a>
+                <button class="cert-link cert-show-img" type="button" data-img="certs/cert4.jpg"><i class="ti ti-photo" aria-hidden="true"></i><span data-i18n="cert_show_img_btn">Show Image</span></button>
+              </div>
+            </div>
+            <div class="cert-card" style="--cat-color:var(--rose)">
+              <div class="cert-top"><span class="cert-ico"><i class="ti ti-shield-lock" aria-hidden="true"></i></span><span class="cert-title" data-i18n="cert5_title">+Security</span></div>
+              <div class="cert-meta"><span data-i18n="cert5_issuer">Tehran Institute of Technology</span> · <span data-i18n="cert5_date">2025</span></div>
+              <div class="cert-actions">
+                <a class="cert-link" href="https://mftplus.com" target="_blank" rel="noopener"><i class="ti ti-external-link" aria-hidden="true"></i><span data-i18n="cert_site_link">Website</span></a>
+                <button class="cert-link cert-show-img" type="button" data-img="certs/cert5.jpg"><i class="ti ti-photo" aria-hidden="true"></i><span data-i18n="cert_show_img_btn">Show Image</span></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+          <div class="comment" data-i18n="projects_comment">/* a few things I’ve built — click "run" */</div>
+          <h2 class="h-title" data-i18n="projects_title">Projects</h2>
+          <div class="proj-grid">
+            <div class="proj-card" style="--proj-color:var(--coral)">
+              <div class="proj-bar"></div>
+              <div class="proj-body">
+                <div class="proj-title" data-i18n="proj1_title">Online Store</div>
+                <p class="proj-desc" data-i18n="proj1_desc">An online storefront with local payment gateway integration and a full admin panel.</p>
+                <div class="proj-tags"><span class="proj-tag">React</span><span class="proj-tag">Node.js</span><span class="proj-tag">PostgreSQL</span></div>
+                <button class="proj-link proj-run" type="button" data-name="فروشگاه-آنلاین" data-name-en="Online-Store" data-i18n="run_project_btn">Run Project ▶</button>
+              </div>
+              <div class="proj-run-overlay"><div class="proj-run-lines"></div></div>
+            </div>
+            <div class="proj-card" style="--proj-color:var(--peri)">
+              <div class="proj-bar"></div>
+              <div class="proj-body">
+                <div class="proj-title" data-i18n="proj2_title">Team Task Manager</div>
+                <p class="proj-desc" data-i18n="proj2_desc">A project management tool for small teams, with a kanban board and real-time notifications.</p>
+                <div class="proj-tags"><span class="proj-tag">Next.js</span><span class="proj-tag">TypeScript</span><span class="proj-tag">Socket.io</span></div>
+                <button class="proj-link proj-run" type="button" data-name="مدیر-وظایف" data-name-en="Task-Manager" data-i18n="run_project_btn">Run Project ▶</button>
+              </div>
+              <div class="proj-run-overlay"><div class="proj-run-lines"></div></div>
+            </div>
+            <div class="proj-card" style="--proj-color:var(--mint)">
+              <div class="proj-bar"></div>
+              <div class="proj-body">
+                <div class="proj-title" data-i18n="proj3_title">Smart Telegram Bot</div>
+                <p class="proj-desc" data-i18n="proj3_desc">An auto-reply bot with natural language processing for customer support.</p>
+                <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">FastAPI</span><span class="proj-tag">OpenAI API</span></div>
+                <button class="proj-link proj-run" type="button" data-name="ربات-تلگرام" data-name-en="Telegram-Bot" data-i18n="run_project_btn">Run Project ▶</button>
+              </div>
+              <div class="proj-run-overlay"><div class="proj-run-lines"></div></div>
+            </div>
+            <div class="proj-card" style="--proj-color:var(--amber)">
+              <div class="proj-bar"></div>
+              <div class="proj-body">
+                <div class="proj-title" data-i18n="proj4_title">Analytics Dashboard</div>
+                <p class="proj-desc" data-i18n="proj4_desc">Live sales data visualization with interactive charts and advanced filters.</p>
+                <div class="proj-tags"><span class="proj-tag">React</span><span class="proj-tag">D3.js</span><span class="proj-tag">Redis</span></div>
+                <button class="proj-link proj-run" type="button" data-name="داشبورد-تحلیل" data-name-en="Analytics-Dashboard" data-i18n="run_project_btn">Run Project ▶</button>
+              </div>
+              <div class="proj-run-overlay"><div class="proj-run-lines"></div></div>
+            </div>
+            <div class="proj-card" style="--proj-color:var(--rose)">
+              <div class="proj-bar"></div>
+              <div class="proj-body">
+                <div class="proj-title" data-i18n="proj5_title">Interactive Land Map (SVG)</div>
+                <p class="proj-desc" data-i18n="proj5_desc">An interactive SVG map with 1,000 clickable land plots, each showing details and share-purchase status.</p>
+                <div class="proj-tags"><span class="proj-tag">SVG</span><span class="proj-tag">JavaScript</span><span class="proj-tag">localStorage</span></div>
+                <div class="proj-actions">
+                  <a class="proj-link" href="https://github.com/AliFazeli20/Interactive-Svg-Map" target="_blank" rel="noopener"><i class="ti ti-brand-github" aria-hidden="true"></i><span data-i18n="proj_github_label">GitHub</span></a>
+                </div>
+                <button class="proj-link proj-run" type="button" data-name="نقشه-svg" data-name-en="SVG-Map" data-github="https://github.com/AliFazeli20/Interactive-Svg-Map" data-demo="https://alifazeli20.github.io/Interactive-Svg-Map/Interactive-Svg-Map-demo.html" data-i18n="run_project_btn">Run Project ▶</button>
+              </div>
+              <div class="proj-run-overlay"><div class="proj-run-lines"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+          <div class="comment" data-i18n="contact_comment">$ ./contact.sh</div>
+          <h2 class="h-title" data-i18n="contact_title">Contact Me</h2>
+          <div class="shell">
+            <div class="shell-line"><span class="prompt">&gt;</span> <span data-i18n="contact_running">Running...</span></div>
+            <div class="shell-line has-copy"><span class="shell-line-text"><span class="prompt">&gt;</span> <span class="shell-ico"><i class="ti ti-mail" aria-hidden="true"></i></span> <span data-i18n="contact_email_label">Email:</span> <a href="mailto:ali.fazeli.dev@gmail.com">ali.fazeli.dev@gmail.com</a></span><button class="copy-btn" type="button" data-copy="ali.fazeli.dev@gmail.com" data-i18n-title="contact_copy_title" title="Copy email"><span class="copy-ico"><i class="ti ti-copy" aria-hidden="true"></i></span><span class="copy-txt" data-i18n="contact_copy_label">Copy</span></button></div>
+            <div class="shell-line has-copy"><span class="shell-line-text"><span class="prompt">&gt;</span> <span class="shell-ico"><i class="ti ti-brand-github" aria-hidden="true"></i></span> <span data-i18n="contact_github_label">GitHub:</span> <a href="https://github.com/AliFazeli20" target="_blank" rel="noopener">github.com/AliFazeli20</a></span><button class="copy-btn" type="button" data-copy="https://github.com/AliFazeli20" data-i18n-title="contact_copy_github_title" title="Copy GitHub link"><span class="copy-ico"><i class="ti ti-copy" aria-hidden="true"></i></span><span class="copy-txt" data-i18n="contact_copy_label">Copy</span></button></div>
+            <div class="shell-line has-copy"><span class="shell-line-text"><span class="prompt">&gt;</span> <span class="shell-ico"><i class="ti ti-brand-linkedin" aria-hidden="true"></i></span> <span data-i18n="contact_linkedin_label">LinkedIn:</span> <a href="https://www.linkedin.com/in/ali-fazeli20" target="_blank" rel="noopener">linkedin.com/in/ali-fazeli20</a></span><button class="copy-btn" type="button" data-copy="https://www.linkedin.com/in/ali-fazeli20" data-i18n-title="contact_copy_linkedin_title" title="Copy LinkedIn link"><span class="copy-ico"><i class="ti ti-copy" aria-hidden="true"></i></span><span class="copy-txt" data-i18n="contact_copy_label">Copy</span></button></div>
+            <div class="shell-line"><span class="ok">✓</span> <span data-i18n="contact_ready">Ready to collaborate on the next project</span></div>
+          </div>
+          <div class="qr-box">
+            <img width="96" height="96" src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://github.com/AliFazeli20" data-i18n-alt="qr_alt" alt="Profile QR code" loading="lazy">
+            <p class="qr-caption" data-i18n="qr_caption">Scan for quick access to my GitHub profile 📱</p>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+<div class="cmdk-overlay" id="cmdkOverlay">
+  <div class="cmdk-panel" id="cmdkPanel" role="dialog" aria-modal="true" data-i18n-aria="cmdk_aria" aria-label="Quick search">
+    <div class="cmdk-input-row">
+      <span class="cmdk-ico" style="color:var(--coral)"><i class="ti ti-search" aria-hidden="true"></i></span>
+      <input type="text" id="cmdkInput" class="cmdk-input" data-i18n-placeholder="cmdk_placeholder" placeholder="Search a section... (e.g. &quot;projects&quot;)" autocomplete="off">
+      <button class="cmdk-esc" id="cmdkCloseBtn" type="button" data-i18n-title="close_title" data-i18n-aria="close_title" title="Close (Esc)" aria-label="Close (Esc)"><i class="ti ti-x" aria-hidden="true"></i></button>
+    </div>
+    <div class="cmdk-list" id="cmdkList"></div>
+  </div>
+</div>
+
+<div class="cmdk-overlay" id="achOverlay">
+  <div class="cmdk-panel ach-panel" id="achPanel" role="dialog" aria-modal="true" data-i18n-aria="ach_panel_title" aria-label="Achievements" tabindex="-1">
+    <div class="cmdk-input-row">
+      <span class="cmdk-ico" style="color:var(--amber)"><i class="ti ti-trophy" aria-hidden="true"></i></span>
+      <span class="ach-panel-title" data-i18n="ach_panel_title">Achievements</span>
+      <span class="ach-panel-count" id="achPanelCount">0/6</span>
+      <button class="cmdk-esc" id="achCloseBtn" type="button" data-i18n-title="close_title" data-i18n-aria="close_title" title="Close (Esc)" aria-label="Close (Esc)"><i class="ti ti-x" aria-hidden="true"></i></button>
+    </div>
+    <div class="ach-list" id="achList"></div>
+  </div>
+</div>
+
+<div class="ach-toast-stack" id="achToastStack" role="status" aria-live="polite"></div>
+
+<div class="grand-overlay" id="grandOverlay">
+  <div class="grand-card" role="dialog" aria-modal="true" data-i18n-aria="grand_title" aria-label="Congrats! You unlocked every achievement" tabindex="-1">
+    <div class="grand-emoji"><i class="ti ti-trophy" aria-hidden="true" style="color:var(--amber)"></i></div>
+    <div class="grand-title" data-i18n="grand_title">Congrats! You unlocked every achievement</div>
+    <div class="grand-sub" data-i18n="grand_sub">You explored every corner of this site — awesome! 🙌</div>
+    <button class="btn btn-primary" id="grandClose" type="button" data-i18n="grand_close">Close</button>
+  </div>
+</div>
+
+<div class="cert-lightbox-overlay" id="certLightboxOverlay" role="dialog" aria-modal="true" data-i18n-aria="cert_lightbox_aria" aria-label="Certificate preview">
+  <div class="cert-lightbox-panel">
+    <button class="cert-lightbox-close" id="certLightboxClose" type="button" data-i18n-title="cert_lightbox_close_title" title="Close">✕</button>
+    <img id="certLightboxImg" src="" alt="">
+  </div>
+</div>
+
+<button class="back-to-top" id="backToTop" type="button" data-i18n-title="back_to_top_title" title="Back to top" data-i18n-aria="back_to_top_title" aria-label="Back to top">
+  <svg class="back-to-top-ring" viewBox="0 0 48 48" aria-hidden="true">
+    <circle class="track" cx="24" cy="24" r="21"></circle>
+    <circle class="fill" id="backToTopFill" cx="24" cy="24" r="21" stroke-dasharray="131.9" stroke-dashoffset="131.9"></circle>
+  </svg>
+  <i class="ti ti-arrow-up" aria-hidden="true"></i>
+</button>
+
+<script>
+(function(){
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---- Focus trap utility for modal overlays ----
+  // Keeps Tab/Shift+Tab cycling inside the dialog while open, and restores
+  // focus to whatever triggered it once closed, per standard dialog a11y practice.
+  function createFocusTrap(overlayEl, panelEl){
+    var lastFocused = null;
+    var FOCUSABLE_SEL = 'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
+    function getFocusable(){
+      return Array.prototype.slice.call(panelEl.querySelectorAll(FOCUSABLE_SEL))
+        .filter(function(el){ return el.offsetParent !== null; });
+    }
+    function onKeydown(e){
+      if(e.key !== 'Tab') return;
+      var focusable = getFocusable();
+      if(!focusable.length){ e.preventDefault(); return; }
+      var first = focusable[0], last = focusable[focusable.length - 1];
+      if(e.shiftKey){
+        if(document.activeElement === first || !panelEl.contains(document.activeElement)){
+          e.preventDefault(); last.focus();
+        }
+      } else {
+        if(document.activeElement === last || !panelEl.contains(document.activeElement)){
+          e.preventDefault(); first.focus();
+        }
+      }
+    }
+    return {
+      activate: function(triggerEl){
+        lastFocused = triggerEl || document.activeElement;
+        overlayEl.addEventListener('keydown', onKeydown);
+        setTimeout(function(){
+          var focusable = getFocusable();
+          if(focusable.length){ focusable[0].focus(); }
+          else if(panelEl.hasAttribute('tabindex')){ panelEl.focus(); }
+        }, 30);
+      },
+      deactivate: function(){
+        overlayEl.removeEventListener('keydown', onKeydown);
+        var toFocus = lastFocused;
+        lastFocused = null;
+        if(toFocus && typeof toFocus.focus === 'function' && document.contains(toFocus)){
+          toFocus.focus();
+        }
+      }
+    };
+  }
+
+  // ---- Icon font fallback ----
+  // If the Tabler Icons stylesheet fails to load (CDN down, blocked, offline),
+  // don't leave broken/"tofu" glyph boxes on screen — hide them and make sure
+  // button text (normally hidden on mobile) is still visible so nothing turns
+  // into an unlabeled, invisible control.
+  (function(){
+    var iconLink = document.getElementById('tablerIconsCss');
+    if(!iconLink) return;
+    iconLink.addEventListener('error', function(){
+      document.documentElement.classList.add('no-icon-font');
+    });
+  })();
+
+
+  (function(){
+    var bootScreen = document.getElementById('bootScreen');
+    if(!bootScreen || bootScreen.style.display === 'none') return; // repeat visitor, already skipped synchronously
+
+    var skipped = false;
+
+    function finishBoot(){
+      bootScreen.classList.add('hide');
+      try{ if(window.localStorage) localStorage.setItem('alifazeli_booted', '1'); }catch(e){}
+      setTimeout(function(){ if(bootScreen.parentNode) bootScreen.parentNode.removeChild(bootScreen); }, reduceMotion ? 0 : 550);
+    }
+
+    if(reduceMotion){
+      finishBoot();
+      return;
+    }
+
+    var lines = [
+      { text:'[ OK ] loading kernel...', tag:'OK' },
+      { text:'[ OK ] mounting ali-fazeli/profile.json', tag:'OK' },
+      { text:'[ OK ] initializing skills[]', tag:'OK' },
+      { text:'[ OK ] connecting to coffee.exe \u2615', tag:'OK' },
+      { text:'[ OK ] compiling personality.ts', tag:'OK' },
+      { text:'[DONE] booting ali-fazeli-os v1.0', tag:'DONE' }
+    ];
+    var linesBox = document.getElementById('bootLines');
+    var barFill = document.getElementById('bootBarFill');
+    var percentEl = document.getElementById('bootPercent');
+
+    function showLine(i){
+      if(skipped) return;
+      if(i >= lines.length){ startProgress(); return; }
+      var l = lines[i];
+      var bracketMatch = l.text.match(/^\[([^\]]+)\]/);
+      var rest = l.text.slice(bracketMatch[0].length);
+      var div = document.createElement('div');
+      div.className = 'boot-line';
+      var tagClass = l.tag === 'DONE' ? 'tag done' : 'tag';
+      div.innerHTML = '<span class="'+tagClass+'">['+bracketMatch[1]+']</span>' + rest;
+      linesBox.appendChild(div);
+      requestAnimationFrame(function(){ div.classList.add('show'); });
+      setTimeout(function(){ showLine(i+1); }, 260);
+    }
+
+    function startProgress(){
+      if(skipped) return;
+      var p = 0;
+      var iv = setInterval(function(){
+        if(skipped){ clearInterval(iv); return; }
+        p += 6 + Math.random()*10;
+        if(p >= 100){
+          p = 100;
+          barFill.style.width = '100%';
+          percentEl.textContent = '100%';
+          clearInterval(iv);
+          setTimeout(finishBoot, 250);
+          return;
+        }
+        barFill.style.width = p + '%';
+        percentEl.textContent = Math.floor(p) + '%';
+      }, 60);
+    }
+
+    function skip(){
+      if(skipped) return;
+      skipped = true;
+      finishBoot();
+    }
+    document.addEventListener('keydown', skip, { once:true });
+    bootScreen.addEventListener('click', skip, { once:true });
+
+    setTimeout(function(){ showLine(0); }, 200);
+  })();
+
+  // ---- i18n dictionary ----
+  var currentLang = 'en';
+  var I18N = {
+    file_hero:{ fa:'معرفی.tsx', en:'hero.tsx' },
+    file_about:{ fa:'درباره-من.md', en:'about-me.md' },
+    file_skills:{ fa:'مهارت‌ها.json', en:'skills.json' },
+    file_activity:{ fa:'فعالیت.svg', en:'activity.svg' },
+    file_experience:{ fa:'تجربه.log', en:'experience.log' },
+    file_certifications:{ fa:'گواهی‌نامه‌ها.json', en:'certifications.json' },
+    file_projects:{ fa:'پروژه‌ها/', en:'projects/' },
+    file_contact:{ fa:'تماس.sh', en:'contact.sh' },
+    nav_home:{ fa:'معرفی', en:'Home' },
+    nav_about:{ fa:'درباره من', en:'About Me' },
+    nav_skills:{ fa:'مهارت‌ها', en:'Skills' },
+    nav_activity:{ fa:'فعالیت کدنویسی', en:'Coding Activity' },
+    nav_experience:{ fa:'سوابق کاری', en:'Experience' },
+    nav_certifications:{ fa:'گواهی‌نامه‌ها', en:'Certifications' },
+    nav_projects:{ fa:'پروژه‌ها', en:'Projects' },
+    nav_contact:{ fa:'تماس با من', en:'Contact Me' },
+    nav_sidebar_aria:{ fa:'پیمایش بخش‌ها', en:'Section navigation' },
+    nav_tabs_aria:{ fa:'تب‌های باز', en:'Open tabs' },
+    tb_sound_label:{ fa:'صدا', en:'Sound' },
+    tb_sound_title:{ fa:'صدای تایپ (روشن/خاموش)', en:'Typing sound (on/off)' },
+    tb_search_title:{ fa:'جستجو (Ctrl+K)', en:'Search (Ctrl+K)' },
+    tb_theme_title:{ fa:'تعویض تم رنگی', en:'Switch color theme' },
+    tb_mode_title:{ fa:'تعویض حالت روشن/تیره', en:'Switch light/dark mode' },
+    tb_mode_label:{ fa:'تیره', en:'Dark' },
+    tb_mode_label_light:{ fa:'روشن', en:'Light' },
+    tb_pdf_title:{ fa:'دانلود PDF', en:'Download PDF' },
+    tb_search_label:{ fa:'جستجو', en:'Search' },
+    tb_more_label:{ fa:'تنظیمات', en:'Settings' },
+    tb_more_title:{ fa:'تنظیمات', en:'Settings' },
+    tb_mode_name:{ fa:'حالت', en:'Mode' },
+    tb_theme_name:{ fa:'تم', en:'Theme' },
+    tb_sound_on:{ fa:'روشن', en:'On' },
+    tb_sound_off:{ fa:'خاموش', en:'Off' },
+    hero_eyebrow:{ fa:'// درباره یک برنامه‌نویس', en:'// about a developer' },
+    hero_title:{ fa:'سلام، من علی فاضلی هستم', en:'Hi, I\u2019m Ali Fazeli' },
+    hero_sub:{ fa:'می‌سازم، می‌شکنم، دوباره می‌سازم؛ تا وقتی که درست کار کنه. این‌جا یه نگاه سریع به کاری‌ست که انجام می‌دهم.', en:'I build, I break, I rebuild \u2014 until it works. Here\u2019s a quick look at what I do.' },
+    cta_projects:{ fa:'مشاهده پروژه‌ها ↓', en:'View Projects ↓' },
+    cta_contact:{ fa:'تماس با من', en:'Contact Me' },
+    cta_pdf:{ fa:'⬇ دانلود PDF', en:'⬇ Download PDF' },
+    stat_years:{ fa:'سال تجربه', en:'Years Experience' },
+    stat_projects:{ fa:'پروژه انجام‌شده', en:'Projects Completed' },
+    stat_coffee:{ fa:'فنجان قهوه', en:'Cups of Coffee' },
+    about_comment:{ fa:'/* یک خط کوتاه درباره من */', en:'/* a quick line about me */' },
+    about_title:{ fa:'درباره من', en:'About Me' },
+    about_text:{
+      fa:'از وقتی اولین خط کدم رو نوشتم، عاشق این شدم که چطور چند تا کاراکتر ساده می‌تونن به یه چیز واقعی و کاربردی تبدیل بشن. این روزها بیشتر روی توسعه وب کار می‌کنم؛ از طراحی رابط کاربری گرفته تا ساخت API و پایگاه داده. چیزی که برام مهمه اینه که کدی که می‌نویسم هم درست کار کنه، هم بعد از شش ماه خودم بتونم بفهمم چی نوشتم.',
+      en:'Ever since I wrote my first line of code, I\u2019ve been hooked on how a few simple characters can turn into something real and useful. These days I mostly work on the web \u2014 from crafting the UI to building the API and database. What matters most to me is that the code I write actually works, and that I can still understand it six months later.'
+    },
+    fact_education:{ fa:'🎓 education: "مهندسی کامپیوتر، دانشگاه آزاد"', en:'🎓 education: "Computer Engineering, Azad University"' },
+    fact_location:{ fa:'📍 location: "تهران، ایران"', en:'📍 location: "Tehran, Iran"' },
+    fact_languages:{ fa:'🗣 languages: ["فارسی","English"]', en:'🗣 languages: ["Persian","English"]' },
+    skills_comment:{ fa:'/* آنچه باهاش کار می‌کنم */', en:'/* what I work with */' },
+    skills_title:{ fa:'مهارت‌ها', en:'Skills' },
+    skill_cat_frontend_aria:{ fa:'مهارت‌های فرانت‌اند', en:'Frontend skills' },
+    skill_cat_backend_aria:{ fa:'مهارت‌های بک‌اند', en:'Backend skills' },
+    skill_cat_devops_aria:{ fa:'ابزارها و DevOps', en:'DevOps and tools' },
+    activity_comment:{ fa:'/* نقشه فعالیت کدنویسی */', en:'/* coding activity map */' },
+    activity_title:{ fa:'فعالیت کدنویسی', en:'Coding Activity' },
+    heat_caption_suffix:{ fa:'مشارکت کد در یک سال گذشته', en:'contributions in the last year' },
+    heat_less:{ fa:'کمتر', en:'Less' },
+    heat_more:{ fa:'بیشتر', en:'More' },
+    exp_title:{ fa:'سوابق کاری', en:'Experience' },
+    commit1_role:{ fa:'توسعه‌دهنده ارشد Front-end — شرکت نمونه', en:'Senior Front-end Developer — Example Co.' },
+    commit1_date:{ fa:'2023 — اکنون', en:'2023 — Present' },
+    commit1_li1:{ fa:'بازطراحی رابط کاربری محصول اصلی و افزایش 30% سرعت بارگذاری', en:'Redesigned the core product UI, boosting load speed by 30%' },
+    commit1_li2:{ fa:'راه‌اندازی سیستم کامپوننت مشترک بین تیم‌ها', en:'Built a shared component system used across teams' },
+    commit1_li3:{ fa:'راهنمایی و منتورشیپ سه توسعه‌دهنده جونیور', en:'Mentored three junior developers' },
+    commit2_role:{ fa:'توسعه‌دهنده نرم‌افزار — شرکت دوم', en:'Software Developer — Second Co.' },
+    commit2_date:{ fa:'2021 — 2023', en:'2021 — 2023' },
+    commit2_li1:{ fa:'توسعه و نگهداری API با Node.js و PostgreSQL', en:'Built and maintained APIs with Node.js and PostgreSQL' },
+    commit2_li2:{ fa:'پیاده‌سازی تست‌های خودکار و کاهش 40% باگ‌های تولید', en:'Introduced automated tests, cutting production bugs by 40%' },
+    commit3_role:{ fa:'توسعه‌دهنده جونیور — شرکت اول', en:'Junior Developer — First Co.' },
+    commit3_date:{ fa:'2019 — 2021', en:'2019 — 2021' },
+    commit3_li1:{ fa:'همکاری در ساخت اولین نسخه محصول از صفر', en:'Helped build the product\u2019s first version from scratch' },
+    commit3_li2:{ fa:'یادگیری React و اکوسیستم مدرن جاوااسکریپت', en:'Learned React and the modern JavaScript ecosystem' },
+    cert_comment:{ fa:'/* مدارک و دوره‌هایی که گذروندم */', en:'/* certificates and courses I\u2019ve completed */' },
+    cert_title:{ fa:'گواهی‌نامه‌ها', en:'Certifications' },
+    cert1_title:{ fa:'برنامه‌نویسی پایتون - مقدماتی 1', en:'Python Programming for Beginners 1' },
+    cert1_issuer:{ fa:'مجتمع فنی تهران', en:'Tehran Institute of Technology' },
+    cert1_date:{ fa:'2022', en:'2022' },
+    cert2_title:{ fa:'برنامه‌نویسی پایتون - مقدماتی 2', en:'Python Programming for Beginners 2' },
+    cert2_issuer:{ fa:'مجتمع فنی تهران', en:'Tehran Institute of Technology' },
+    cert2_date:{ fa:'2022 - 2023', en:'2022\u20132023' },
+    cert3_title:{ fa:'برنامه‌نویسی با پایتون', en:'Programming with Python' },
+    cert3_issuer:{ fa:'مجتمع فنی تهران', en:'Tehran Institute of Technology' },
+    cert3_date:{ fa:'2023', en:'2023' },
+    cert4_title:{ fa:'مقدمه‌ای بر هوش مصنوعی با پایتون (CS50AI)', en:'Introduction to Artificial Intelligence with Python (CS50AI)' },
+    cert4_issuer:{ fa:'دانشگاه هاروارد (CS50)', en:'Harvard University (CS50)' },
+    cert4_date:{ fa:'2024', en:'2024' },
+    cert5_title:{ fa:'دوره +Security', en:'+Security' },
+    cert5_issuer:{ fa:'مجتمع فنی تهران', en:'Tehran Institute of Technology' },
+    cert5_date:{ fa:'2025', en:'2025' },
+    cert_site_link:{ fa:'وبسایت', en:'Website' },
+    cert_show_img_btn:{ fa:'نمایش عکس', en:'Show Image' },
+    cert_lightbox_aria:{ fa:'نمایش گواهی', en:'Certificate preview' },
+    cert_lightbox_close_title:{ fa:'بستن', en:'Close' },
+    projects_comment:{ fa:'/* چند نمونه از کارهایی که ساختم — روی «اجرا» بزن */', en:'/* a few things I\u2019ve built \u2014 click "run" */' },
+    projects_title:{ fa:'پروژه‌ها', en:'Projects' },
+    proj1_title:{ fa:'فروشگاه آنلاین', en:'Online Store' },
+    proj1_desc:{ fa:'یک پلتفرم فروش آنلاین با درگاه پرداخت داخلی و پنل مدیریت کامل.', en:'An online storefront with local payment gateway integration and a full admin panel.' },
+    proj2_title:{ fa:'مدیر وظایف تیمی', en:'Team Task Manager' },
+    proj2_desc:{ fa:'ابزار مدیریت پروژه برای تیم‌های کوچک، با تخته کانبان و اعلان لحظه‌ای.', en:'A project management tool for small teams, with a kanban board and real-time notifications.' },
+    proj3_title:{ fa:'ربات تلگرام هوشمند', en:'Smart Telegram Bot' },
+    proj3_desc:{ fa:'ربات پاسخ‌گویی خودکار با پردازش زبان طبیعی برای پشتیبانی مشتری.', en:'An auto-reply bot with natural language processing for customer support.' },
+    proj4_title:{ fa:'داشبورد تحلیل داده', en:'Analytics Dashboard' },
+    proj4_desc:{ fa:'نمایش زنده داده‌های فروش با نمودارهای تعاملی و فیلترهای پیشرفته.', en:'Live sales data visualization with interactive charts and advanced filters.' },
+    proj5_title:{ fa:'نقشه تعاملی زمین (SVG)', en:'Interactive Land Map (SVG)' },
+    proj5_desc:{ fa:'نقشه SVG تعاملی با ۱۰۰۰ قطعه زمین قابل‌کلیک؛ هر قطعه اطلاعات و وضعیت خرید سهم رو نشون می‌ده.', en:'An interactive SVG map with 1,000 clickable land plots, each showing details and share-purchase status.' },
+    proj_github_label:{ fa:'گیت‌هاب', en:'GitHub' },
+    run_project_btn:{ fa:'اجرای پروژه ▶', en:'Run Project ▶' },
+    contact_comment:{ fa:'$ ./تماس.sh', en:'$ ./contact.sh' },
+    contact_title:{ fa:'تماس با من', en:'Contact Me' },
+    contact_running:{ fa:'در حال اجرا...', en:'Running...' },
+    contact_email_label:{ fa:'ایمیل:', en:'Email:' },
+    contact_copy_label:{ fa:'کپی', en:'Copy' },
+    contact_copy_title:{ fa:'کپی ایمیل', en:'Copy email' },
+    contact_copy_github_title:{ fa:'کپی لینک گیت‌هاب', en:'Copy GitHub link' },
+    contact_copy_linkedin_title:{ fa:'کپی لینک لینکدین', en:'Copy LinkedIn link' },
+    contact_copied_label:{ fa:'کپی شد ✓', en:'Copied ✓' },
+    contact_github_label:{ fa:'گیت‌هاب:', en:'GitHub:' },
+    contact_linkedin_label:{ fa:'لینکدین:', en:'LinkedIn:' },
+    contact_ready:{ fa:'آماده همکاری روی پروژه بعدی', en:'Ready to collaborate on the next project' },
+    qr_alt:{ fa:'QR کد پروفایل', en:'Profile QR code' },
+    qr_caption:{ fa:'اسکن کن برای دسترسی سریع به پروفایل گیت‌هابم 📱', en:'Scan for quick access to my GitHub profile 📱' },
+    cmdk_aria:{ fa:'جستجوی سریع', en:'Quick search' },
+    cmdk_placeholder:{ fa:'جستجوی یک بخش... (مثلاً «پروژه»)', en:'Search a section... (e.g. "projects")' },
+    cmdk_empty:{ fa:'چیزی پیدا نشد', en:'Nothing found' },
+    close_title:{ fa:'بستن (Esc)', en:'Close (Esc)' },
+    ach_panel_title:{ fa:'دستاوردها', en:'Achievements' },
+    ach_toast_prefix:{ fa:'دستاورد باز شد', en:'Achievement unlocked' },
+    ach_locked_hint:{ fa:'هنوز باز نشده', en:'Not unlocked yet' },
+    ach_explorer_title:{ fa:'کاوشگر', en:'Explorer' },
+    ach_explorer_desc:{ fa:'همه‌ی بخش‌های سایت رو دیدی', en:'Viewed every section' },
+    ach_power_title:{ fa:'کاربر حرفه‌ای', en:'Power User' },
+    ach_power_desc:{ fa:'Command Palette رو باز کردی', en:'Opened the command palette' },
+    ach_theme_title:{ fa:'سفارشی‌ساز', en:'Customizer' },
+    ach_theme_desc:{ fa:'تم رنگی رو عوض کردی', en:'Switched the color theme' },
+    ach_lang_title:{ fa:'دوزبانه', en:'Polyglot' },
+    ach_lang_desc:{ fa:'زبان سایت رو عوض کردی', en:'Switched the language' },
+    ach_run_title:{ fa:'کنجکاو', en:'Curious' },
+    ach_run_desc:{ fa:'یه پروژه رو اجرا کردی', en:'Ran a project' },
+    ach_pdf_title:{ fa:'دقیق', en:'Thorough' },
+    ach_pdf_desc:{ fa:'رزومه رو دانلود کردی', en:'Downloaded the résumé' },
+    ach_toast_progress_more:{ fa:'ادامه بده، بقیه‌شون هم منتظرن!', en:'Keep going, more are waiting!' },
+    ach_toast_progress_last:{ fa:'فقط یکی مونده!', en:'Just one left!' },
+    grand_title:{ fa:'تبریک! همه‌ی دستاوردها باز شد', en:'Congrats! You unlocked every achievement' },
+    grand_sub:{ fa:'واقعاً همه‌جای این سایت رو گشتی — عالی بود! 🙌', en:'You explored every corner of this site — awesome! 🙌' },
+    grand_close:{ fa:'بستن', en:'Close' },
+    title_tag:{ fa:'علی فاضلی — توسعه‌دهنده فول‌استک | رزومه و نمونه‌کار', en:'Ali Fazeli — Full-Stack Developer | Portfolio & Résumé' },
+    meta_desc:{ fa:'علی فاضلی — توسعه‌دهنده فول‌استک در تهران. React، Next.js، Node.js، Python و PostgreSQL. مشاهده رزومه، پروژه‌ها و گواهی‌نامه‌ها.', en:'Ali Fazeli — Full-Stack Developer in Tehran. React, Next.js, Node.js, Python & PostgreSQL. Browse the résumé, projects and certifications.' },
+    heat_no_activity:{ fa:'بدون فعالیت', en:'No activity' },
+    heat_activity_unit:{ fa:'مشارکت', en:'contributions' },
+    run_port:{ fa:'✓ در حال اجرا روی پورت 3000 🚀', en:'✓ Running on port 3000 🚀' },
+    back_to_top_title:{ fa:'بازگشت به بالا', en:'Back to top' }
+  };
+
+  // ---- Keyboard click sound (synthesized, no audio files) ----
+  var SOUND_STORAGE_KEY = 'alifazeli_sound';
+  function loadStoredSound(){
+    try{
+      if(window.localStorage){
+        var raw = localStorage.getItem(SOUND_STORAGE_KEY);
+        if(raw === '0') return false;
+        if(raw === '1') return true;
+      }
+    }catch(e){}
+    return true;
+  }
+  var soundOn = loadStoredSound();
+  var actx = null;
+  var noiseBuffer = null;
+  var heroInView = true;
+  function unlockAudio(){
+    if(!actx){
+      try{ actx = new (window.AudioContext || window.webkitAudioContext)(); }catch(e){ actx = null; }
+    }
+    if(actx && actx.state === 'suspended') actx.resume();
+  }
+  ['click','keydown','touchstart'].forEach(function(evt){
+    window.addEventListener(evt, unlockAudio, { once:true, passive:true });
+  });
+  function getNoiseBuffer(){
+    if(noiseBuffer) return noiseBuffer;
+    var len = Math.floor(actx.sampleRate * 0.06);
+    noiseBuffer = actx.createBuffer(1, len, actx.sampleRate);
+    var data = noiseBuffer.getChannelData(0);
+    for(var i=0; i<len; i++){ data[i] = Math.random()*2 - 1; }
+    return noiseBuffer;
+  }
+  function playClick(){
+    if(!soundOn || !actx) return;
+    var t = actx.currentTime;
+
+    // layer 1: sharp high-frequency "tick" from the switch (filtered noise burst)
+    var noise = actx.createBufferSource();
+    noise.buffer = getNoiseBuffer();
+    var bandpass = actx.createBiquadFilter();
+    bandpass.type = 'bandpass';
+    bandpass.frequency.value = 2800 + Math.random()*2200;
+    bandpass.Q.value = 1.1;
+    var tickGain = actx.createGain();
+    tickGain.gain.setValueAtTime(0.0001, t);
+    tickGain.gain.exponentialRampToValueAtTime(0.5, t + 0.002);
+    tickGain.gain.exponentialRampToValueAtTime(0.0001, t + 0.018);
+    noise.connect(bandpass).connect(tickGain).connect(actx.destination);
+    noise.start(t);
+    noise.stop(t + 0.03);
+
+    // layer 2: low "thock" body resonance from bottoming out, slightly delayed
+    var thockDelay = 0.005 + Math.random()*0.004;
+    var osc = actx.createOscillator();
+    osc.type = 'triangle';
+    osc.frequency.setValueAtTime(150 + Math.random()*45, t + thockDelay);
+    var thockGain = actx.createGain();
+    thockGain.gain.setValueAtTime(0.0001, t + thockDelay);
+    thockGain.gain.exponentialRampToValueAtTime(0.22, t + thockDelay + 0.006);
+    thockGain.gain.exponentialRampToValueAtTime(0.0001, t + thockDelay + 0.055);
+    osc.connect(thockGain).connect(actx.destination);
+    osc.start(t + thockDelay);
+    osc.stop(t + thockDelay + 0.06);
+  }
+  var soundBtn = document.getElementById('soundBtn');
+  var soundIco = document.getElementById('soundIco');
+  var soundVal = document.getElementById('soundVal');
+  function popIcon(el){
+    if(!el || reduceMotion) return;
+    el.classList.remove('tb-pop'); void el.offsetWidth; el.classList.add('tb-pop');
+  }
+  function syncSoundUi(animate){
+    soundIco.innerHTML = soundOn ? '<i class="ti ti-volume" aria-hidden="true"></i>' : '<i class="ti ti-volume-3" aria-hidden="true"></i>';
+    soundBtn.classList.toggle('is-on', soundOn);
+    soundBtn.setAttribute('aria-pressed', soundOn ? 'true' : 'false');
+    var key = soundOn ? 'tb_sound_on' : 'tb_sound_off';
+    soundVal.setAttribute('data-i18n', key);
+    soundVal.textContent = I18N[key][currentLang];
+    if(animate) popIcon(soundIco.firstElementChild);
+  }
+  syncSoundUi(false);
+  soundBtn.addEventListener('click', function(){
+    soundOn = !soundOn;
+    syncSoundUi(true);
+    try{ if(window.localStorage) localStorage.setItem(SOUND_STORAGE_KEY, soundOn ? '1' : '0'); }catch(e){}
+  });
+
+  // ---- Achievement system ----
+  var ACHIEVEMENTS = [
+    { id:'explorer', ico:'ti-map-2', color:'var(--coral)', titleKey:'ach_explorer_title', descKey:'ach_explorer_desc' },
+    { id:'power_user', ico:'ti-search', color:'var(--peri)', titleKey:'ach_power_title', descKey:'ach_power_desc' },
+    { id:'theme', ico:'ti-palette', color:'var(--rose)', titleKey:'ach_theme_title', descKey:'ach_theme_desc' },
+    { id:'lang', ico:'ti-world', color:'var(--mint)', titleKey:'ach_lang_title', descKey:'ach_lang_desc' },
+    { id:'run', ico:'ti-player-play', color:'var(--amber)', titleKey:'ach_run_title', descKey:'ach_run_desc' },
+    { id:'pdf', ico:'ti-file-text', color:'var(--peri)', titleKey:'ach_pdf_title', descKey:'ach_pdf_desc' }
+  ];
+  var ACH_STORAGE_KEY = 'alifazeli_achievements';
+  function loadStoredAchievements(){
+    try{
+      if(window.localStorage){
+        var raw = localStorage.getItem(ACH_STORAGE_KEY);
+        if(raw){
+          var parsed = JSON.parse(raw);
+          if(Array.isArray(parsed)) return parsed;
+        }
+      }
+    }catch(e){}
+    return [];
+  }
+  function saveStoredAchievements(){
+    try{
+      if(window.localStorage) localStorage.setItem(ACH_STORAGE_KEY, JSON.stringify(Array.from(unlockedAch)));
+    }catch(e){}
+  }
+
+  var unlockedAch = new Set(loadStoredAchievements().filter(function(id){
+    return ACHIEVEMENTS.some(function(a){ return a.id === id; });
+  }));
+  var visitedSectionsForAch = new Set();
+
+  function updateAchCount(bump){
+    var label = unlockedAch.size + '/' + ACHIEVEMENTS.length;
+    var b1 = document.getElementById('achLabel');
+    var b2 = document.getElementById('achPanelCount');
+    if(b1){
+      b1.textContent = label;
+      if(bump && !reduceMotion){ b1.classList.remove('tb-bump'); void b1.offsetWidth; b1.classList.add('tb-bump'); }
+    }
+    if(b2) b2.textContent = label;
+  }
+
+  function showAchToast(ach){
+    var stack = document.getElementById('achToastStack');
+    if(!stack) return;
+    var remaining = ACHIEVEMENTS.length - unlockedAch.size;
+    var progressText = remaining === 1 ? I18N.ach_toast_progress_last[currentLang] : I18N.ach_toast_progress_more[currentLang];
+    var toast = document.createElement('div');
+    toast.className = 'ach-toast';
+    toast.style.setProperty('--ach-color', ach.color);
+    toast.innerHTML =
+      '<span class="ach-ico"><i class="ti ' + ach.ico + '" aria-hidden="true"></i></span>' +
+      '<span class="ach-toast-body">' +
+        '<span class="ach-toast-prefix">' + I18N.ach_toast_prefix[currentLang] + '</span>' +
+        '<span class="ach-toast-title">' + I18N[ach.titleKey][currentLang] + '</span>' +
+        '<span class="ach-toast-progress">' + unlockedAch.size + '/' + ACHIEVEMENTS.length + ' \u2014 ' + progressText + '</span>' +
+      '</span>';
+    stack.appendChild(toast);
+    requestAnimationFrame(function(){ toast.classList.add('show'); });
+    setTimeout(function(){
+      toast.classList.remove('show');
+      setTimeout(function(){ if(toast.parentNode) toast.parentNode.removeChild(toast); }, 400);
+    }, 4200);
+  }
+
+  function unlockAchievement(id){
+    if(unlockedAch.has(id)) return;
+    var ach = ACHIEVEMENTS.filter(function(a){ return a.id === id; })[0];
+    if(!ach) return;
+    unlockedAch.add(id);
+    saveStoredAchievements();
+    updateAchCount(true);
+    renderAchPanel();
+    if(unlockedAch.size >= ACHIEVEMENTS.length){
+      triggerGrandCelebration();
+    } else {
+      showAchToast(ach);
+    }
+  }
+
+  function fireworkBurst(x, y, colors){
+    var wrap = document.createElement('div');
+    wrap.style.cssText = 'position:fixed;left:' + x + 'px;top:' + y + 'px;width:0;height:0;pointer-events:none;z-index:95;';
+    document.body.appendChild(wrap);
+    var count = 22;
+    for(var i = 0; i < count; i++){
+      var angle = (Math.PI * 2 * i) / count + Math.random() * 0.3;
+      var dist = 55 + Math.random() * 65;
+      var dx = Math.cos(angle) * dist;
+      var dy = Math.sin(angle) * dist;
+      var size = 4 + Math.random() * 4;
+      var color = colors[i % colors.length];
+      var p = document.createElement('span');
+      p.className = 'firework-particle';
+      p.style.width = size + 'px';
+      p.style.height = size + 'px';
+      p.style.background = color;
+      p.style.boxShadow = '0 0 6px ' + color;
+      p.style.setProperty('--dx', dx + 'px');
+      p.style.setProperty('--dy', dy + 'px');
+      wrap.appendChild(p);
+    }
+    setTimeout(function(){ if(wrap.parentNode) wrap.parentNode.removeChild(wrap); }, 950);
+  }
+
+  function launchBalloons(){
+    var colors = (particleColors && particleColors.length) ? particleColors : ['#FF8B7B','#FFC65C','#4FD8C4','#9B8CFA','#FF6FA0'];
+    var count = 14;
+    for(var i = 0; i < count; i++){
+      (function(i){
+        setTimeout(function(){
+          var b = document.createElement('div');
+          b.className = 'grand-balloon';
+          b.style.left = (6 + Math.random() * 88) + 'vw';
+          b.style.background = colors[i % colors.length];
+          b.style.animationDuration = (5 + Math.random() * 3) + 's';
+          document.body.appendChild(b);
+          setTimeout(function(){ if(b.parentNode) b.parentNode.removeChild(b); }, 9000);
+        }, i * 150);
+      })(i);
+    }
+  }
+
+  var grandOverlay = document.getElementById('grandOverlay');
+  var grandCard = grandOverlay ? grandOverlay.querySelector('.grand-card') : null;
+  var grandTrap = (grandOverlay && grandCard) ? createFocusTrap(grandOverlay, grandCard) : null;
+  function grandClose(){
+    if(!grandOverlay || !grandOverlay.classList.contains('open')) return;
+    grandOverlay.classList.remove('open');
+    if(grandTrap) grandTrap.deactivate();
+  }
+  var grandCelebrated = unlockedAch.size >= ACHIEVEMENTS.length;
+  function triggerGrandCelebration(){
+    if(grandCelebrated) return;
+    grandCelebrated = true;
+    if(!reduceMotion){
+      launchBalloons();
+      var fwColors = (particleColors && particleColors.length) ? particleColors : ['#FF8B7B','#FFC65C','#4FD8C4','#9B8CFA','#FF6FA0'];
+      var bursts = 9;
+      for(var i = 0; i < bursts; i++){
+        setTimeout(function(){
+          var x = (0.12 + Math.random() * 0.76) * window.innerWidth;
+          var y = (0.1 + Math.random() * 0.45) * window.innerHeight;
+          fireworkBurst(x, y, fwColors);
+        }, i * 230);
+      }
+    }
+    setTimeout(function(){
+      if(grandOverlay){
+        // this can fire as a side effect of opening the command palette or
+        // achievements panel (e.g. unlocking the last badge) — don't let it
+        // stack on top of whichever one is still open
+        cmdkClose();
+        achClose();
+        grandOverlay.classList.add('open');
+        if(grandTrap) grandTrap.activate();
+      }
+    }, reduceMotion ? 100 : 750);
+  }
+  var grandCloseBtn = document.getElementById('grandClose');
+  if(grandCloseBtn){
+    grandCloseBtn.addEventListener('click', grandClose);
+  }
+  if(grandOverlay){
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape') grandClose();
+    });
+  }
+
+  function renderAchPanel(){
+    var list = document.getElementById('achList');
+    if(!list) return;
+    list.innerHTML = '';
+    ACHIEVEMENTS.forEach(function(ach){
+      var unlocked = unlockedAch.has(ach.id);
+      var item = document.createElement('div');
+      item.className = 'ach-item' + (unlocked ? ' unlocked' : '');
+      item.style.setProperty('--ach-color', ach.color);
+      item.innerHTML =
+        '<span class="ach-ico"><i class="ti ' + (unlocked ? ach.ico : 'ti-lock') + '" aria-hidden="true"></i></span>' +
+        '<span class="ach-body">' +
+          '<span class="ach-title">' + I18N[ach.titleKey][currentLang] + '</span>' +
+          '<span class="ach-desc">' + (unlocked ? I18N[ach.descKey][currentLang] : I18N.ach_locked_hint[currentLang]) + '</span>' +
+        '</span>';
+      list.appendChild(item);
+    });
+  }
+  renderAchPanel();
+  updateAchCount();
+
+  var achOverlay = document.getElementById('achOverlay');
+  var achBtn = document.getElementById('achBtn');
+  var achPanelEl = document.getElementById('achPanel');
+  var achTrap = achPanelEl ? createFocusTrap(achOverlay, achPanelEl) : null;
+  function achClose(){
+    if(!achOverlay.classList.contains('open')) return;
+    achOverlay.classList.remove('open');
+    if(achTrap) achTrap.deactivate();
+  }
+  if(achBtn && achOverlay){
+    achBtn.addEventListener('click', function(){
+      cmdkClose();
+      closeMore();
+      renderAchPanel();
+      achOverlay.classList.add('open');
+      if(achTrap) achTrap.activate(achBtn);
+    });
+    achOverlay.addEventListener('click', function(e){ if(e.target === achOverlay) achClose(); });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape') achClose();
+    });
+    var achCloseBtn = document.getElementById('achCloseBtn');
+    if(achCloseBtn) achCloseBtn.addEventListener('click', achClose);
+  }
+
+  // ---- Settings menu (compact toolbar) ----
+  // Below 1000px the five secondary controls live in #tbMore. Non-modal popover:
+  // closes on outside click, Escape (focus returns to the trigger), or focus leaving.
+  var tbUtils = document.getElementById('tbUtils');
+  var moreBtn = document.getElementById('moreBtn');
+  function closeMore(restoreFocus){
+    if(!tbUtils || !tbUtils.classList.contains('menu-open')) return;
+    tbUtils.classList.remove('menu-open');
+    moreBtn.setAttribute('aria-expanded', 'false');
+    if(restoreFocus) moreBtn.focus();
+  }
+  if(tbUtils && moreBtn){
+    moreBtn.addEventListener('click', function(e){
+      if(tbUtils.classList.contains('menu-open')){ closeMore(); return; }
+      tbUtils.classList.add('menu-open');
+      moreBtn.setAttribute('aria-expanded', 'true');
+      if(e.detail === 0){
+        var firstRow = tbUtils.querySelector('#tbMore .tb-btn');
+        if(firstRow) firstRow.focus();
+      }
+    });
+    document.addEventListener('click', function(e){ if(!tbUtils.contains(e.target)) closeMore(); });
+    document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeMore(true); });
+    tbUtils.addEventListener('focusout', function(e){
+      if(e.relatedTarget && !tbUtils.contains(e.relatedTarget)) closeMore();
+    });
+  }
+
+  // ---- Text scramble reveal ----
+  // Two separate character pools: mixing Latin/digit scramble glyphs (strong
+  // LTR) into a Persian (strong RTL) string mid-reveal caused the browser's
+  // bidi algorithm to reorder/split runs, producing a broken-looking glitch.
+  // Picking a pool that matches the current text's own direction keeps every
+  // frame of the animation bidi-consistent.
+  var SCRAMBLE_CHARS_LTR = '!<>-_\\/[]{}=+*^?#$%&ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  var SCRAMBLE_CHARS_RTL = '!<>-_\\/[]{}=+*^?#$%&ابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی۰۱۲۳۴۵۶۷۸۹';
+  var scrambledHeadings = new WeakSet();
+  function scrambleReveal(el, finalText, duration){
+    if(!el) return;
+    if(reduceMotion){ el.textContent = finalText; return; }
+    duration = duration || 650;
+    var scrambleChars = currentLang === 'fa' ? SCRAMBLE_CHARS_RTL : SCRAMBLE_CHARS_LTR;
+    var length = finalText.length;
+    var totalFrames = Math.max(10, Math.round(duration / 30));
+    var frame = 0;
+    if(el._scrambleTimer){ clearInterval(el._scrambleTimer); }
+    // Intermediate scrambled glyphs don't have the same width as the final
+    // text (different letters, or a real glyph standing in for a zero-width
+    // joiner), so mid-animation the string can be wider or narrower than the
+    // final text and briefly wrap onto an extra line. That flips the
+    // element's height and shoves every section below it up/down for a
+    // frame or two, which reads as a jarring jump/cut. Locking to a single
+    // line for the duration of the animation (any overflow is invisible
+    // scramble noise anyway, clipped by the page's overflow-x:hidden)
+    // keeps the layout completely stable until the real text lands.
+    el.style.whiteSpace = 'nowrap';
+    el._scrambleTimer = setInterval(function(){
+      frame++;
+      var progress = frame / totalFrames;
+      var revealCount = Math.floor(progress * length);
+      var out = '';
+      for(var i = 0; i < length; i++){
+        var ch = finalText[i];
+        if(i < revealCount || ch === ' ' || ch === '\n' || ch === '\u200c'){
+          out += ch;
+        } else {
+          out += scrambleChars[Math.floor(Math.random() * scrambleChars.length)];
+        }
+      }
+      el.textContent = out;
+      if(frame >= totalFrames){
+        clearInterval(el._scrambleTimer);
+        el._scrambleTimer = null;
+        el.textContent = finalText;
+        el.style.whiteSpace = '';
+      }
+    }, 30);
+  }
+
+  // ---- Typewriter ----
+  var ROLES = {
+    fa:['توسعه‌دهنده فول‌استک', 'عاشق کدهای تمیز', 'حل‌کننده مسئله‌های سخت', 'یادگیرنده همیشگی'],
+    en:['Full-Stack Developer', 'Clean Code Enthusiast', 'Hard Problem Solver', 'Lifelong Learner']
+  };
+  var typeEl = document.getElementById('typeText');
+  var ri = 0, ci = 0, deleting = false;
+
+  function tick(){
+    var roles = ROLES[currentLang];
+    var word = roles[ri % roles.length];
+    if(!deleting){
+      ci++;
+      typeEl.textContent = word.slice(0, ci);
+      if(heroInView) playClick();
+      if(ci === word.length){ deleting = true; setTimeout(tick, 1400); return; }
+    } else {
+      ci--;
+      typeEl.textContent = word.slice(0, ci);
+      if(ci === 0){ deleting = false; ri = (ri+1) % roles.length; }
+    }
+    setTimeout(tick, deleting ? 45 : 85);
+  }
+  if(reduceMotion){
+    typeEl.textContent = ROLES[currentLang][0];
+  } else {
+    tick();
+  }
+
+  // ---- Nav (tabs + sidebar) ----
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  var links = Array.prototype.slice.call(document.querySelectorAll('.side-link'));
+
+  // ---- Mouse-wheel horizontal scroll for the tab bar ----
+  // Trackpads send a horizontal deltaX directly, but a plain vertical mouse
+  // wheel only ever sends deltaY, so the tab strip couldn't be scrolled with
+  // one. Redirect vertical wheel movement into horizontal scroll here.
+  var tabsEl = document.getElementById('tabs');
+  if(tabsEl){
+    tabsEl.addEventListener('wheel', function(e){
+      if(tabsEl.scrollWidth <= tabsEl.clientWidth) return;
+      if(Math.abs(e.deltaY) > Math.abs(e.deltaX)){
+        e.preventDefault();
+        tabsEl.scrollLeft += e.deltaY;
+      }
+    }, { passive:false });
+  }
+  var jumps = Array.prototype.slice.call(document.querySelectorAll('.jump'));
+  var content = document.getElementById('content');
+  var sections = Array.prototype.slice.call(document.querySelectorAll('.section'));
+  var isMobileLayout = window.matchMedia('(max-width:760px)').matches;
+  var ioRoot = isMobileLayout ? null : content;
+
+  // While a click-triggered smooth scroll is still animating, the
+  // IntersectionObserver sees every section it passes through and would
+  // otherwise stair-step the active highlight down each one in turn. Lock
+  // the highlight to the clicked target until the scroll actually settles.
+  var suppressAutoActive = false;
+  var scrollSettleTimer = null;
+  function watchScrollSettle(el){
+    clearTimeout(scrollSettleTimer);
+    var done = false;
+    function settle(){
+      if(done) return;
+      done = true;
+      el.removeEventListener('scroll', onScroll);
+      el.removeEventListener('scrollend', settle);
+      suppressAutoActive = false;
+    }
+    function onScroll(){
+      clearTimeout(scrollSettleTimer);
+      scrollSettleTimer = setTimeout(settle, 120);
+    }
+    el.addEventListener('scroll', onScroll, { passive:true });
+    if('onscrollend' in window){ el.addEventListener('scrollend', settle, { once:true }); }
+    // safety net in case neither event fires (e.g. already at target)
+    scrollSettleTimer = setTimeout(settle, 900);
+  }
+
+  function goTo(id){
+    var el = document.getElementById(id);
+    if(!el) return;
+    var mobileNow = window.matchMedia('(max-width:760px)').matches;
+    suppressAutoActive = true;
+    if(mobileNow){
+      watchScrollSettle(window);
+      el.scrollIntoView({behavior: reduceMotion ? 'auto' : 'smooth', block:'start'});
+    } else {
+      watchScrollSettle(content);
+      content.scrollTo({ top: el.offsetTop, behavior: reduceMotion ? 'auto' : 'smooth' });
+    }
+  }
+  tabs.concat(links).concat(jumps).forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = btn.getAttribute('data-target');
+      setActive(target);
+      goTo(target);
+    });
+  });
+
+  function setActive(id){
+    tabs.forEach(function(t){
+      var isActive = t.getAttribute('data-target') === id;
+      t.classList.toggle('active', isActive);
+      if(isActive){ t.setAttribute('aria-current', 'page'); } else { t.removeAttribute('aria-current'); }
+    });
+    links.forEach(function(l){
+      var isActive = l.getAttribute('data-target') === id;
+      l.classList.toggle('active', isActive);
+      if(isActive){ l.setAttribute('aria-current', 'page'); } else { l.removeAttribute('aria-current'); }
+    });
+  }
+
+  // Persisted per-section intersection ratios. IntersectionObserver only reports
+  // entries that crossed a threshold since the last callback, so picking the
+  // active section from just the current batch can pick a section that isn't
+  // actually the most visible one (e.g. a neighboring section that just barely
+  // crossed 0.25 while the real target section didn't re-cross any threshold).
+  // Keeping a running map of every section's last-known ratio and choosing the
+  // max across ALL sections each time fixes that off-by-one highlight bug.
+  var sectionRatios = {};
+  sections.forEach(function(s){ sectionRatios[s.id] = 0; });
+
+  // IntersectionObserver's `root` can't be changed after construction, so a
+  // live desktop<->mobile layout switch (window resize past 760px, or a
+  // DevTools responsive-mode toggle) needs a freshly-built observer against
+  // the new root rather than reusing the old one — see the resize listener
+  // below, which calls this again when that happens.
+  var io = null;
+  function setupSectionObserver(){
+    if(io) io.disconnect();
+    io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        sectionRatios[entry.target.id] = entry.isIntersecting ? entry.intersectionRatio : 0;
+
+        if(entry.isIntersecting){
+          entry.target.classList.add('in-view');
+          var heading = entry.target.querySelector('h2.h-title');
+          if(heading && !scrambledHeadings.has(heading)){
+            scrambledHeadings.add(heading);
+            scrambleReveal(heading, heading.textContent, 650);
+          }
+          visitedSectionsForAch.add(entry.target.id);
+          if(visitedSectionsForAch.size >= sections.length){
+            unlockAchievement('explorer');
+          }
+        }
+        if(entry.target.id === 'hero'){
+          heroInView = entry.isIntersecting;
+        }
+      });
+      // find the section most in view for active nav state, across all sections
+      if(!suppressAutoActive){
+        var bestId = null, bestRatio = 0;
+        sections.forEach(function(s){
+          var r = sectionRatios[s.id] || 0;
+          if(r > bestRatio){ bestRatio = r; bestId = s.id; }
+        });
+        if(bestId) setActive(bestId);
+      }
+    }, { root: ioRoot, threshold: [0.25, 0.5, 0.75] });
+    sections.forEach(function(s){ io.observe(s); });
+  }
+  setupSectionObserver();
+  setActive('hero');
+
+  // scramble-reveal the hero title on initial load (hero is visible immediately)
+  var heroTitleEl = document.querySelector('.hero-title [data-i18n="hero_title"]');
+  if(heroTitleEl){
+    scrambledHeadings.add(heroTitleEl);
+    scrambleReveal(heroTitleEl, heroTitleEl.textContent, 750);
+  }
+
+  // ---- Cursor glow ----
+  var glow = document.getElementById('glow');
+  if(!reduceMotion){
+    // A raw mousemove can fire far more often than the screen can repaint
+    // (well over 60/sec on some mice/trackpads). Writing two custom
+    // properties and reading getBoundingClientRect on every single one of
+    // those events does far more work than the visible glow needs \u2014
+    // collapse to a single update per animation frame instead.
+    var glowRafId = null;
+    var glowClientX = 0, glowClientY = 0;
+    function applyGlow(){
+      glowRafId = null;
+      var rect = content.getBoundingClientRect();
+      glow.style.setProperty('--mx', (glowClientX - rect.left) + 'px');
+      glow.style.setProperty('--my', (glowClientY - rect.top + content.scrollTop) + 'px');
+    }
+    content.addEventListener('mousemove', function(e){
+      glowClientX = e.clientX;
+      glowClientY = e.clientY;
+      if(glowRafId == null){ glowRafId = requestAnimationFrame(applyGlow); }
+    });
+  }
+
+  // ---- Stat count-up ----
+  var counted = false;
+  var statIo = null;
+  var heroSection = document.getElementById('hero');
+  function setupStatObserver(){
+    if(statIo) statIo.disconnect();
+    statIo = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting && !counted){
+          counted = true;
+          document.querySelectorAll('[data-count]').forEach(function(el){
+            var target = parseInt(el.getAttribute('data-count'), 10);
+            if(reduceMotion){ el.textContent = target.toLocaleString('en-US'); return; }
+            var cur = 0;
+            var step = Math.max(1, Math.round(target/30));
+            var iv = setInterval(function(){
+              cur += step;
+              if(cur >= target){ cur = target; clearInterval(iv); }
+              el.textContent = cur.toLocaleString('en-US');
+            }, 30);
+          });
+        }
+      });
+    }, { root: ioRoot, threshold: 0.4 });
+    if(heroSection) statIo.observe(heroSection);
+  }
+  setupStatObserver();
+
+  // rebuild both observers against the correct root if the layout crosses
+  // the mobile/desktop breakpoint live (window resize, DevTools responsive
+  // mode) — same 150ms debounce as the particle-canvas resize handler below
+  var ioResizeTimer = null;
+  window.addEventListener('resize', function(){
+    clearTimeout(ioResizeTimer);
+    ioResizeTimer = setTimeout(function(){
+      var nowMobile = window.matchMedia('(max-width:760px)').matches;
+      if(nowMobile === isMobileLayout) return;
+      isMobileLayout = nowMobile;
+      ioRoot = isMobileLayout ? null : content;
+      setupSectionObserver();
+      setupStatObserver();
+    }, 150);
+  });
+
+  // ---- Theme switcher ----
+  var themes = [
+    { name:'Aurora', accents:{ '--coral':'#FF8B7B', '--amber':'#FFC65C', '--mint':'#4FD8C4', '--peri':'#9B8CFA', '--rose':'#FF6FA0', '--on-accent':'#1E1630' },
+      dark:{ '--plum-900':'#1E1630', '--plum-800':'#2A2044' },
+      light:{ '--plum-900':'#FFFFFF', '--plum-800':'#F3EFFC' } },
+    { name:'Sunset', accents:{ '--coral':'#FF7A59', '--amber':'#FFB84D', '--mint':'#FF9A76', '--peri':'#FF6F91', '--rose':'#FFD166', '--on-accent':'#2A1420' },
+      dark:{ '--plum-900':'#2A1420', '--plum-800':'#3A1C2C' },
+      light:{ '--plum-900':'#FFFBF9', '--plum-800':'#FCEEE7' } },
+    { name:'Ocean',  accents:{ '--coral':'#5ED0C4', '--amber':'#7FE0A8', '--mint':'#4FC3E8', '--peri':'#4FA6E8', '--rose':'#63D6C9', '--on-accent':'#101C2E' },
+      dark:{ '--plum-900':'#101C2E', '--plum-800':'#16283F' },
+      light:{ '--plum-900':'#FBFEFF', '--plum-800':'#EAF4FB' } },
+    { name:'Dracula',accents:{ '--coral':'#FF7EDB', '--amber':'#F8E45C', '--mint':'#7CF29C', '--peri':'#BD93F9', '--rose':'#FF6E9C', '--on-accent':'#1A1626' },
+      dark:{ '--plum-900':'#1A1626', '--plum-800':'#24202F' },
+      light:{ '--plum-900':'#FFFCFF', '--plum-800':'#F5EEFA' } }
+  ];
+  var THEME_STORAGE_KEY = 'alifazeli_theme';
+  function loadStoredThemeIndex(){
+    try{
+      if(window.localStorage){
+        var raw = localStorage.getItem(THEME_STORAGE_KEY);
+        var i = parseInt(raw, 10);
+        if(!isNaN(i) && i >= 0 && i < themes.length) return i;
+      }
+    }catch(e){}
+    return 0;
+  }
+  var themeIndex = loadStoredThemeIndex();
+  function applyTheme(i){
+    themeIndex = i;
+    var t = themes[i];
+    var root = document.documentElement.style;
+    Object.keys(t.accents).forEach(function(k){ root.setProperty(k, t.accents[k]); });
+    // window/titlebar/sidebar surface colors are mode-dependent (each theme
+    // has its own dark AND light pair), so re-picking this on every mode
+    // toggle too (see applyMode) keeps light mode from inheriting the dark
+    // surfaces and going unreadable.
+    var surfaces = isLightMode() ? t.light : t.dark;
+    Object.keys(surfaces).forEach(function(k){ root.setProperty(k, surfaces[k]); });
+    var themeValEl = document.getElementById('themeVal');
+    if(themeValEl) themeValEl.textContent = t.name;
+    // keep the OS status bar / browser chrome color matched to whichever
+    // theme is actually on screen, not just light vs dark mode
+    var metaThemeColorEl = document.getElementById('metaThemeColor');
+    if(metaThemeColorEl) metaThemeColorEl.setAttribute('content', surfaces['--plum-900']);
+    refreshParticleColors();
+    try{ if(window.localStorage) localStorage.setItem(THEME_STORAGE_KEY, String(i)); }catch(e){}
+  }
+  applyTheme(themeIndex);
+  document.getElementById('themeBtn').addEventListener('click', function(){
+    applyTheme((themeIndex + 1) % themes.length);
+    unlockAchievement('theme');
+  });
+
+  // ---- Light / dark mode toggle ----
+  var MODE_STORAGE_KEY = 'alifazeli_mode';
+  var modeBtn = document.getElementById('modeBtn');
+  var modeIco = modeBtn ? modeBtn.querySelector('.tb-ico-mode i') : null;
+  var modeVal = document.getElementById('modeVal');
+  function isLightMode(){ return document.documentElement.getAttribute('data-mode') === 'light'; }
+  function applyMode(mode, opts){
+    var light = mode === 'light';
+    document.documentElement.setAttribute('data-mode', light ? 'light' : 'dark');
+    if(modeIco) modeIco.className = light ? 'ti ti-sun' : 'ti ti-moon';
+    if(modeVal) modeVal.textContent = I18N[light ? 'tb_mode_label_light' : 'tb_mode_label'][currentLang];
+    if(modeVal) modeVal.setAttribute('data-i18n', light ? 'tb_mode_label_light' : 'tb_mode_label');
+    if(opts && opts.animate) popIcon(modeIco);
+    try{ if(window.localStorage) localStorage.setItem(MODE_STORAGE_KEY, light ? 'light' : 'dark'); }catch(e){}
+    // re-pick the active theme's surface pair (dark vs light) now that the
+    // mode just changed \u2014 otherwise a theme picked earlier stays pinned to
+    // whichever surface colors were inline-set at that time.
+    applyTheme(themeIndex);
+  }
+  applyMode(isLightMode() ? 'light' : 'dark');
+  if(modeBtn){
+    modeBtn.addEventListener('click', function(){
+      applyMode(isLightMode() ? 'dark' : 'light', { animate:true });
+    });
+  }
+
+  // ---- Mesh gradient background ----
+  // Soft blurred color blobs that drift and blend into each other, drawn on
+  // the same canvas element the old particle network used. Function names
+  // (initParticles/stepParticles/startParticles/refreshParticleColors/
+  // resizeParticleCanvas) are kept as-is since the theme switcher and the
+  // resize handler already call into them by name.
+  var particleCanvas = document.getElementById('particleCanvas');
+  var pCtx = particleCanvas ? particleCanvas.getContext('2d') : null;
+  // Canvas 2D defaults imageSmoothingQuality to 'low'. That's fine for crisp
+  // content, but the render-scale trick above relies on drawImage()
+  // downsampling a large pre-blurred sprite onto a smaller backing store \u2014
+  // under 'low' quality that soft blur falloff gets crushed into a harder,
+  // more banded edge. Bumping this to 'high' keeps the gradient smooth.
+  if(pCtx){ pCtx.imageSmoothingQuality = 'high'; }
+  var particles = [];
+  var particleColors = [];
+  var particleAnimId = null;
+  var isDesktopForParticles = window.matchMedia('(min-width:761px)').matches;
+  // The blur hides individual pixels anyway, so the canvas doesn't need a
+  // full-resolution backing store. particleLogicalW/H stay at full CSS pixel
+  // size (used for particle physics and blob radii, so motion/proportions
+  // stay correct), while the actual bitmap is rendered smaller and scaled
+  // up via a transform \u2014 fewer physical pixels to clear/composite every
+  // frame, with no visible quality loss under the blur.
+  var PARTICLE_RENDER_SCALE = 0.75;
+  var particleLogicalW = 0, particleLogicalH = 0;
+
+  function readParticleColors(){
+    var style = getComputedStyle(document.documentElement);
+    particleColors = ['--coral','--amber','--mint','--peri','--rose'].map(function(v){
+      return style.getPropertyValue(v).trim() || '#9B8CFA';
+    });
+  }
+  function refreshParticleColors(){
+    readParticleColors();
+    if(particles && particles.length) particles.forEach(function(p, i){ p.color = particleColors[i % particleColors.length]; });
+  }
+  function resizeParticleCanvas(){
+    if(!particleCanvas) return;
+    var rect = particleCanvas.parentElement.getBoundingClientRect();
+    particleLogicalW = rect.width;
+    particleLogicalH = rect.height;
+    particleCanvas.width = Math.max(1, Math.round(rect.width * PARTICLE_RENDER_SCALE));
+    particleCanvas.height = Math.max(1, Math.round(rect.height * PARTICLE_RENDER_SCALE));
+  }
+  function initParticles(){
+    if(!pCtx || !isDesktopForParticles) return;
+    readParticleColors();
+    resizeParticleCanvas();
+    var w = particleLogicalW, h = particleLogicalH;
+    particles = particleColors.map(function(color, i){
+      return {
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.18,
+        vy: (Math.random() - 0.5) * 0.18,
+        r: 150 + Math.random() * 110,
+        color: color
+      };
+    });
+  }
+  var BLOB_BLUR_PX = 70;
+  // ctx.filter = 'blur()' re-rasterizes the full blur on the CPU for every
+  // shape on every single animation frame, which was the single heaviest
+  // cost in the whole page. The blobs only ever change position, never
+  // shape/color/size within a frame, so the blur itself doesn't need to be
+  // redone each frame: bake each distinct color+radius combo into an
+  // off-screen "sprite" ONCE (with the blur baked in), then every frame just
+  // drawImage() that sprite at the new x/y \u2014 a cheap, unblurred copy.
+  var blobSpriteCache = {};
+  function getBlobSprite(color, r){
+    var rr = Math.round(r);
+    var key = color + '|' + rr;
+    var sprite = blobSpriteCache[key];
+    if(sprite) return sprite;
+    var pad = BLOB_BLUR_PX * 3; // generous margin so the blurred falloff isn't clipped at the sprite edge
+    var size = Math.ceil((rr + pad) * 2);
+    var off = document.createElement('canvas');
+    off.width = size;
+    off.height = size;
+    var octx = off.getContext('2d');
+    octx.filter = 'blur(' + BLOB_BLUR_PX + 'px)';
+    octx.globalAlpha = 0.5;
+    octx.fillStyle = color;
+    octx.beginPath();
+    octx.arc(size / 2, size / 2, rr, 0, Math.PI * 2);
+    octx.fill();
+    sprite = { canvas: off, half: size / 2 };
+    blobSpriteCache[key] = sprite;
+    return sprite;
+  }
+  function drawBlobs(){
+    pCtx.setTransform(1, 0, 0, 1, 0, 0);
+    pCtx.clearRect(0, 0, particleCanvas.width, particleCanvas.height);
+    pCtx.setTransform(PARTICLE_RENDER_SCALE, 0, 0, PARTICLE_RENDER_SCALE, 0, 0);
+    particles.forEach(function(p){
+      var sprite = getBlobSprite(p.color, p.r);
+      pCtx.drawImage(sprite.canvas, p.x - sprite.half, p.y - sprite.half);
+    });
+  }
+  function stepParticles(){
+    if(!pCtx) return;
+    var w = particleLogicalW, h = particleLogicalH;
+    particles.forEach(function(p){
+      p.x += p.vx;
+      p.y += p.vy;
+      if(p.x < 0 || p.x > w) p.vx *= -1;
+      if(p.y < 0 || p.y > h) p.vy *= -1;
+      p.x = Math.max(0, Math.min(w, p.x));
+      p.y = Math.max(0, Math.min(h, p.y));
+    });
+    drawBlobs();
+    particleAnimId = requestAnimationFrame(stepParticles);
+  }
+  function drawStaticParticleFrame(){
+    if(!pCtx) return;
+    drawBlobs();
+  }
+  function startParticles(){
+    if(!pCtx || !isDesktopForParticles) return;
+    initParticles();
+    if(particleAnimId){ cancelAnimationFrame(particleAnimId); particleAnimId = null; }
+    if(reduceMotion){ drawStaticParticleFrame(); } else { stepParticles(); }
+  }
+  if(particleCanvas){
+    // window resize can fire dozens of times per second while a window is
+    // being dragged. Each pass through this used to reset canvas.width/height
+    // (which reallocates the canvas's backing bitmap) right away; debouncing
+    // to run once resizing has actually settled avoids that repeated
+    // reallocation churn during the drag itself.
+    var particleResizeTimer = null;
+    function handleParticleResize(){
+      var wasDesktop = isDesktopForParticles;
+      isDesktopForParticles = window.matchMedia('(min-width:761px)').matches;
+      if(isDesktopForParticles){
+        resizeParticleCanvas();
+        if(!wasDesktop) startParticles();
+      } else if(particleAnimId){
+        cancelAnimationFrame(particleAnimId);
+        particleAnimId = null;
+      }
+    }
+    window.addEventListener('resize', function(){
+      clearTimeout(particleResizeTimer);
+      particleResizeTimer = setTimeout(handleParticleResize, 150);
+    });
+    // A hidden/backgrounded tab still receives requestAnimationFrame calls in
+    // some browsers (throttled, but not stopped), so without this the blob
+    // animation \u2014 and its per-frame drawImage work \u2014 keeps running for no
+    // visible benefit while the user is on another tab or app.
+    document.addEventListener('visibilitychange', function(){
+      if(document.hidden){
+        if(particleAnimId){ cancelAnimationFrame(particleAnimId); particleAnimId = null; }
+      } else if(isDesktopForParticles && !reduceMotion && !particleAnimId){
+        stepParticles();
+      }
+    });
+    startParticles();
+  }
+
+  // ---- Activity heatmap ----
+  // Paints a plausible simulated pattern immediately (no empty/loading state
+  // on first paint), then swaps in the real GitHub contribution calendar as
+  // soon as it arrives from github-contributions-api.jogruber.de — a public,
+  // read-only, CORS-enabled service (the same one react-github-calendar uses)
+  // that mirrors GitHub's own profile page. No token ever lives in this file.
+  // Real data is cached in localStorage for an hour (matching that API's own
+  // cache window) so repeat visits paint real data immediately.
+  var GITHUB_USERNAME = 'AliFazeli20';
+  var HEATMAP_CACHE_KEY = 'alifazeli_heatmap_cache';
+  var HEATMAP_CACHE_MS = 60 * 60 * 1000;
+
+  var heatCells = (function(){
+    var cells = [];
+    for(var i = 0; i < 52*7; i++){
+      var r = Math.random();
+      var level = r < 0.42 ? 0 : r < 0.68 ? 1 : r < 0.85 ? 2 : r < 0.95 ? 3 : 4;
+      cells.push({ level:level, count:null, date:null });
+    }
+    return cells;
+  })();
+  var heatTotalReal = null; // set once real data lands; null keeps the simulated total
+
+  // ---- Custom heatmap tooltip ----
+  // Single reusable element (not one per cell) positioned in JS via
+  // getBoundingClientRect + position:fixed. Content and aria-label per cell
+  // are set in updateHeatmapLocale() below via data-tt-* attributes.
+  var heatTooltip = document.createElement('div');
+  heatTooltip.className = 'heatmap-tooltip';
+  heatTooltip.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(heatTooltip);
+  var heatTooltipActiveCell = null;
+
+  function showHeatTooltip(cell){
+    var main = cell.dataset.ttMain;
+    if(main == null) return;
+    var dateText = cell.dataset.ttDate || '';
+    heatTooltip.innerHTML = '<span class="tt-count">' + main + '</span>' +
+      (dateText ? '<span class="tt-sep">\u2014</span><span class="tt-date">' + dateText + '</span>' : '');
+    heatTooltip.classList.remove('show', 'below');
+    heatTooltip.style.setProperty('--tt-arrow-shift', '0px');
+    var rect = cell.getBoundingClientRect();
+    var margin = 10;
+    var ttRect = heatTooltip.getBoundingClientRect();
+    var placeBelow = (rect.top - ttRect.height - 18) < margin;
+    var cx = rect.left + rect.width / 2;
+    var half = ttRect.width / 2;
+    var clampedCx = Math.min(Math.max(cx, half + margin), window.innerWidth - half - margin);
+    heatTooltip.style.left = clampedCx + 'px';
+    heatTooltip.style.top = (placeBelow ? rect.bottom + 10 : rect.top - 10) + 'px';
+    heatTooltip.style.setProperty('--tt-arrow-shift', (cx - clampedCx) + 'px');
+    if(placeBelow) heatTooltip.classList.add('below');
+    requestAnimationFrame(function(){ heatTooltip.classList.add('show'); });
+    heatTooltipActiveCell = cell;
+  }
+  function hideHeatTooltip(){
+    heatTooltip.classList.remove('show');
+    heatTooltipActiveCell = null;
+  }
+
+  function renderHeatmap(){
+    var container = document.getElementById('heatmap');
+    container.innerHTML = '';
+    heatCells.forEach(function(c){
+      var cell = document.createElement('span');
+      cell.className = c.level < 0 ? 'heatmap-cell heatmap-cell-pad' : 'heatmap-cell level-' + c.level;
+      container.appendChild(cell);
+    });
+    updateHeatmapLocale();
+  }
+  function formatHeatDate(iso){
+    try{
+      var d = new Date(iso + 'T00:00:00');
+      var locale = currentLang === 'en' ? 'en-US' : 'fa-IR-u-ca-gregory-nu-latn';
+      return new Intl.DateTimeFormat(locale, { day:'numeric', month:'long' }).format(d);
+    }catch(e){ return iso; }
+  }
+  // Cell colors never depend on language, only their tooltip text and the
+  // total's number formatting do — so switching language only needs to patch
+  // text on the existing cells, not tear them all down and rebuild from
+  // scratch. Rebuilding was the heaviest synchronous work applyLanguage() did,
+  // and doing it every language switch could stall the main thread on mobile
+  // long enough for the UI update to look like it jumps instead of animating.
+  function updateHeatmapLocale(){
+    var container = document.getElementById('heatmap');
+    var cells = container.children;
+    var fallbackTotal = 0;
+    for(var i = 0; i < heatCells.length; i++){
+      var c = heatCells[i];
+      var cell = cells[i];
+      if(!cell || c.level < 0) continue;
+      var mainText, dateText = '';
+      if(c.count != null){
+        mainText = c.count === 0 ? I18N.heat_no_activity[currentLang] : (c.count + ' ' + I18N.heat_activity_unit[currentLang]);
+        dateText = formatHeatDate(c.date);
+      } else {
+        fallbackTotal += c.level * c.level;
+        mainText = c.level === 0 ? I18N.heat_no_activity[currentLang] : (c.level + ' ' + I18N.heat_activity_unit[currentLang]);
+      }
+      cell.dataset.ttMain = mainText;
+      cell.dataset.ttDate = dateText;
+      cell.setAttribute('aria-label', dateText ? (mainText + ' \u2014 ' + dateText) : mainText);
+      // language switched while this exact cell's tooltip is open — refresh its text in place
+      if(heatTooltipActiveCell === cell) showHeatTooltip(cell);
+    }
+    var totalEl = document.getElementById('heatTotal');
+    var total = heatTotalReal != null ? heatTotalReal : fallbackTotal;
+    if(totalEl) totalEl.textContent = total.toLocaleString('en-US');
+  }
+  renderHeatmap();
+
+  // Deliver the tooltip via real :hover on mouse/trackpad, or tap-to-toggle
+  // on touch — same hover-capable check used site-wide (see the 3D tilt
+  // setup below) so it never gets "stuck" open after a tap like a real
+  // :hover rule would on touch devices.
+  (function setupHeatmapTooltipEvents(){
+    var heatmapEl = document.getElementById('heatmap');
+    if(!heatmapEl) return;
+    var hoverCapable = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    if(hoverCapable){
+      heatmapEl.addEventListener('mouseover', function(e){
+        var cell = e.target.closest('.heatmap-cell:not(.heatmap-cell-pad)');
+        if(cell) showHeatTooltip(cell);
+      });
+      heatmapEl.addEventListener('mouseout', function(e){
+        var cell = e.target.closest('.heatmap-cell:not(.heatmap-cell-pad)');
+        if(cell) hideHeatTooltip();
+      });
+    } else {
+      heatmapEl.addEventListener('click', function(e){
+        var cell = e.target.closest('.heatmap-cell:not(.heatmap-cell-pad)');
+        if(!cell) return;
+        if(heatTooltipActiveCell === cell){ hideHeatTooltip(); } else { showHeatTooltip(cell); }
+      });
+      document.addEventListener('click', function(e){
+        if(heatTooltipActiveCell && !heatmapEl.contains(e.target)) hideHeatTooltip();
+      });
+    }
+    // position goes stale on scroll (desktop's internal .content pane, the
+    // horizontal heatmap-wrap scroller, or the page itself on mobile) —
+    // capture:true catches scroll on any of those non-bubbling descendants
+    window.addEventListener('scroll', function(){ if(heatTooltipActiveCell) hideHeatTooltip(); }, true);
+    window.addEventListener('resize', function(){ if(heatTooltipActiveCell) hideHeatTooltip(); });
+  })();
+
+  // Turns one API payload into the padded cell list + real total, and
+  // re-renders. Shared by the localStorage-cache path and the live fetch
+  // below so both go through the exact same validation.
+  function applyRealContributions(data){
+    if(!data || !Array.isArray(data.contributions) || !data.contributions.length) return false;
+    var sorted = data.contributions.slice().sort(function(a, b){
+      return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
+    });
+    var pad = new Date(sorted[0].date + 'T00:00:00').getDay(); // 0=Sun..6=Sat
+    var cells = [];
+    for(var i = 0; i < pad; i++){ cells.push({ level:-1, count:null, date:null }); }
+    sorted.forEach(function(c){ cells.push({ level:c.level, count:c.count, date:c.date }); });
+    heatCells = cells;
+    heatTotalReal = (data.total && data.total.lastYear != null)
+      ? data.total.lastYear
+      : sorted.reduce(function(sum, c){ return sum + (c.count || 0); }, 0);
+    renderHeatmap();
+    return true;
+  }
+
+  (function loadRealGithubActivity(){
+    if(typeof fetch !== 'function') return;
+    try{
+      if(window.localStorage){
+        var raw = localStorage.getItem(HEATMAP_CACHE_KEY);
+        if(raw){
+          var cached = JSON.parse(raw);
+          if(cached && cached.ts && (Date.now() - cached.ts) < HEATMAP_CACHE_MS){
+            applyRealContributions(cached.payload);
+          }
+        }
+      }
+    }catch(e){}
+    var url = 'https://github-contributions-api.jogruber.de/v4/' + GITHUB_USERNAME + '?y=last';
+    fetch(url).then(function(res){
+      if(!res.ok) throw new Error('bad status');
+      return res.json();
+    }).then(function(data){
+      if(!applyRealContributions(data)) throw new Error('bad payload');
+      try{ if(window.localStorage) localStorage.setItem(HEATMAP_CACHE_KEY, JSON.stringify({ ts:Date.now(), payload:data })); }catch(e){}
+    })['catch'](function(){ /* keep whichever heatmap is already on screen */ });
+  })();
+
+  // ---- Copy buttons (email, GitHub, LinkedIn) ----
+  Array.prototype.slice.call(document.querySelectorAll('.copy-btn')).forEach(function(btn){
+    var resetTimer = null;
+    btn.addEventListener('click', function(){
+      var value = btn.getAttribute('data-copy');
+      var ico = btn.querySelector('.copy-ico');
+      var txt = btn.querySelector('.copy-txt');
+
+      function showCopied(){
+        btn.classList.add('copied');
+        ico.innerHTML = '<i class="ti ti-check" aria-hidden="true"></i>';
+        txt.textContent = I18N.contact_copied_label[currentLang];
+        if(resetTimer) clearTimeout(resetTimer);
+        resetTimer = setTimeout(function(){
+          btn.classList.remove('copied');
+          ico.innerHTML = '<i class="ti ti-copy" aria-hidden="true"></i>';
+          txt.textContent = I18N.contact_copy_label[currentLang];
+        }, 1800);
+      }
+
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(value).then(showCopied)['catch'](function(){
+          fallbackCopy(value);
+          showCopied();
+        });
+      } else {
+        fallbackCopy(value);
+        showCopied();
+      }
+    });
+  });
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try{ document.execCommand('copy'); }catch(e){}
+    document.body.removeChild(ta);
+  }
+
+  // ---- Back to top (mobile) ----
+  // Only the mobile layout scrolls the actual document (desktop scrolls the
+  // internal .content pane instead, so window.scrollY stays 0 there and this
+  // button — hidden on desktop via CSS — never needs to react).
+  var backToTopBtn = document.getElementById('backToTop');
+  if(backToTopBtn){
+    var BACK_TO_TOP_THRESHOLD = 480;
+    var backToTopFill = document.getElementById('backToTopFill');
+    var BACK_TO_TOP_CIRC = 131.9;
+    function updateBackToTop(){
+      var y = window.scrollY || document.documentElement.scrollTop || 0;
+      backToTopBtn.classList.toggle('show', y > BACK_TO_TOP_THRESHOLD);
+      if(backToTopFill){
+        var docH = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var pct = docH > 0 ? Math.min(1, Math.max(0, y / docH)) : 0;
+        backToTopFill.style.strokeDashoffset = (BACK_TO_TOP_CIRC * (1 - pct)).toFixed(2);
+      }
+    }
+    // A raw scroll event can fire dozens of times per second on mobile —
+    // same class of issue already solved for the cursor-glow mousemove
+    // handler above, fixed the same way: collapse to one update per frame.
+    var backToTopRafId = null;
+    function onBackToTopScroll(){
+      if(backToTopRafId == null){
+        backToTopRafId = requestAnimationFrame(function(){
+          backToTopRafId = null;
+          updateBackToTop();
+        });
+      }
+    }
+    window.addEventListener('scroll', onBackToTopScroll, { passive:true });
+    updateBackToTop();
+    backToTopBtn.addEventListener('click', function(){
+      window.scrollTo({ top:0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
+  }
+
+  // ---- PDF export ----
+  function triggerPdfSuccess(){
+    if(reduceMotion) return;
+    Array.prototype.slice.call(document.querySelectorAll('.tb-ico-pdf')).forEach(function(ico){
+      var i = ico.querySelector('i');
+      if(!i) return;
+      var originalClass = i.className;
+      if(ico._pdfRevertTimer) clearTimeout(ico._pdfRevertTimer);
+      if(ico._pdfSwapTimer) clearTimeout(ico._pdfSwapTimer);
+      ico.classList.remove('pdf-revert');
+      ico.classList.add('pdf-success');
+      i.className = 'ti ti-check';
+      // hold on the checkmark, then fade it out, swap back to the download
+      // arrow while invisible, and fade the arrow back in \u2014 so the icon
+      // settles into place instead of snapping back instantly.
+      ico._pdfRevertTimer = setTimeout(function(){
+        ico.classList.add('pdf-revert');
+        ico._pdfSwapTimer = setTimeout(function(){
+          ico.classList.remove('pdf-success');
+          i.className = originalClass;
+          requestAnimationFrame(function(){
+            requestAnimationFrame(function(){ ico.classList.remove('pdf-revert'); });
+          });
+        }, 260);
+      }, 1300);
+    });
+  }
+  function exportPdf(){ closeMore(); window.print(); unlockAchievement('pdf'); triggerPdfSuccess(); }
+  document.getElementById('pdfBtn').addEventListener('click', exportPdf);
+  var pdfBtnHero = document.getElementById('pdfBtnHero');
+  if(pdfBtnHero) pdfBtnHero.addEventListener('click', exportPdf);
+
+  // ---- Project "run" simulation ----
+  Array.prototype.slice.call(document.querySelectorAll('.proj-run')).forEach(function(btn){
+    btn.addEventListener('click', function(){
+      unlockAchievement('run');
+      var card = btn.closest('.proj-card');
+      var overlay = card.querySelector('.proj-run-overlay');
+      var linesBox = overlay.querySelector('.proj-run-lines');
+      var isEn = currentLang === 'en';
+      var name = (isEn ? btn.getAttribute('data-name-en') : btn.getAttribute('data-name')) || 'project';
+      var steps = [
+        '$ npm run build',
+        isEn ? ('→ Compiling ' + name + '...') : ('→ ' + name + ' در حال کامپایل...'),
+        '✓ build completed in 1.2s',
+        '$ npm start',
+        I18N.run_port[currentLang]
+      ];
+      // cancel any still-pending timers from a previous run on this same
+      // card so a rapid re-click can't interleave two runs or hide the
+      // overlay early (same class of bug already solved for the PDF icon)
+      if(overlay._runTimers){ overlay._runTimers.forEach(clearTimeout); }
+      overlay._runTimers = [];
+      linesBox.innerHTML = '';
+      overlay.classList.add('show');
+      steps.forEach(function(text, i){
+        overlay._runTimers.push(setTimeout(function(){
+          var line = document.createElement('div');
+          line.className = 'rl' + (text.indexOf('✓') === 0 ? ' ok' : '');
+          line.textContent = text;
+          linesBox.appendChild(line);
+          requestAnimationFrame(function(){ line.classList.add('show'); });
+          if(!soundOn){ /* no-op */ } else { playClick(); }
+        }, i * 420));
+      });
+      overlay._runTimers.push(setTimeout(function(){
+        overlay.classList.remove('show');
+        var openUrl = btn.getAttribute('data-demo') || btn.getAttribute('data-github');
+        if(openUrl) window.open(openUrl, '_blank', 'noopener');
+      }, steps.length * 420 + 1400));
+    });
+  });
+
+  // ---- Certificate image lightbox ----
+  var certLightboxOverlay = document.getElementById('certLightboxOverlay');
+  var certLightboxPanel = certLightboxOverlay ? certLightboxOverlay.querySelector('.cert-lightbox-panel') : null;
+  var certLightboxImg = document.getElementById('certLightboxImg');
+  var certLightboxClose = document.getElementById('certLightboxClose');
+  var certLightboxTrap = (certLightboxOverlay && certLightboxPanel) ? createFocusTrap(certLightboxOverlay, certLightboxPanel) : null;
+  function openCertLightbox(src, alt, triggerEl){
+    if(!certLightboxOverlay) return;
+    certLightboxImg.src = src;
+    certLightboxImg.alt = alt || '';
+    certLightboxOverlay.classList.add('open');
+    if(certLightboxTrap) certLightboxTrap.activate(triggerEl);
+  }
+  function closeCertLightbox(){
+    if(!certLightboxOverlay || !certLightboxOverlay.classList.contains('open')) return;
+    certLightboxOverlay.classList.remove('open');
+    certLightboxImg.src = '';
+    if(certLightboxTrap) certLightboxTrap.deactivate();
+  }
+  Array.prototype.slice.call(document.querySelectorAll('.cert-show-img')).forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var card = btn.closest('.cert-card');
+      var titleEl = card ? card.querySelector('.cert-title') : null;
+      openCertLightbox(btn.getAttribute('data-img'), titleEl ? titleEl.textContent : '', btn);
+    });
+  });
+  if(certLightboxClose) certLightboxClose.addEventListener('click', closeCertLightbox);
+  if(certLightboxOverlay){
+    certLightboxOverlay.addEventListener('click', function(e){ if(e.target === certLightboxOverlay) closeCertLightbox(); });
+  }
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeCertLightbox();
+  });
+
+  // ---- 3D tilt on project cards ----
+  var supportsHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  if(!reduceMotion && supportsHover){
+    Array.prototype.slice.call(document.querySelectorAll('.proj-card, .cert-card')).forEach(function(card){
+      var bounds = null;
+      var tiltRafId = null;
+      var pendingX = 0, pendingY = 0;
+      function applyTilt(){
+        tiltRafId = null;
+        if(!bounds) return;
+        var relX = (pendingX - bounds.left) / bounds.width;
+        var relY = (pendingY - bounds.top) / bounds.height;
+        var rotateY = (relX - 0.5) * 14;
+        var rotateX = (0.5 - relY) * 14;
+        card.style.transform = 'perspective(900px) rotateX(' + rotateX.toFixed(2) + 'deg) rotateY(' + rotateY.toFixed(2) + 'deg) translateY(-4px) scale(1.02)';
+      }
+      card.addEventListener('mouseenter', function(){
+        bounds = card.getBoundingClientRect();
+        card.style.willChange = 'transform';
+      });
+      card.addEventListener('mousemove', function(e){
+        if(!bounds) bounds = card.getBoundingClientRect();
+        pendingX = e.clientX;
+        pendingY = e.clientY;
+        if(tiltRafId == null){ tiltRafId = requestAnimationFrame(applyTilt); }
+      });
+      card.addEventListener('mouseleave', function(){
+        if(tiltRafId != null){ cancelAnimationFrame(tiltRafId); tiltRafId = null; }
+        card.style.transform = '';
+        card.style.willChange = '';
+        bounds = null;
+      });
+    });
+  }
+
+  // ---- Command palette ----
+  var cmdkItems = [
+    { id:'hero', ico:'ti-home', label:{fa:'معرفی',en:'Home'}, file:{fa:'معرفی.tsx',en:'hero.tsx'} },
+    { id:'about', ico:'ti-user', label:{fa:'درباره من',en:'About Me'}, file:{fa:'درباره-من.md',en:'about-me.md'} },
+    { id:'skills', ico:'ti-puzzle', label:{fa:'مهارت‌ها',en:'Skills'}, file:{fa:'مهارت‌ها.json',en:'skills.json'} },
+    { id:'activity', ico:'ti-chart-bar', label:{fa:'فعالیت کدنویسی',en:'Coding Activity'}, file:{fa:'فعالیت.svg',en:'activity.svg'} },
+    { id:'experience', ico:'ti-briefcase', label:{fa:'سوابق کاری',en:'Experience'}, file:{fa:'تجربه.log',en:'experience.log'} },
+    { id:'certifications', ico:'ti-certificate', label:{fa:'گواهی‌نامه‌ها',en:'Certifications'}, file:{fa:'گواهی‌نامه‌ها.json',en:'certifications.json'} },
+    { id:'projects', ico:'ti-rocket', label:{fa:'پروژه‌ها',en:'Projects'}, file:{fa:'پروژه‌ها/',en:'projects/'} },
+    { id:'contact', ico:'ti-mail', label:{fa:'تماس با من',en:'Contact Me'}, file:{fa:'تماس.sh',en:'contact.sh'} }
+  ];
+  var cmdkOverlay = document.getElementById('cmdkOverlay');
+  var cmdkPanel = document.getElementById('cmdkPanel');
+  var cmdkTrap = createFocusTrap(cmdkOverlay, cmdkPanel);
+  var cmdkInput = document.getElementById('cmdkInput');
+  var cmdkList = document.getElementById('cmdkList');
+  var cmdkSelIndex = 0;
+  var cmdkFiltered = cmdkItems.slice();
+
+  function cmdkRender(){
+    cmdkList.innerHTML = '';
+    if(!cmdkFiltered.length){
+      cmdkList.innerHTML = '<div class="cmdk-empty">' + I18N.cmdk_empty[currentLang] + '</div>';
+      return;
+    }
+    cmdkFiltered.forEach(function(it, i){
+      var btn = document.createElement('button');
+      btn.className = 'cmdk-item' + (i === cmdkSelIndex ? ' sel' : '');
+      btn.innerHTML = '<span class="ico"><i class="ti '+it.ico+'" aria-hidden="true"></i></span><span>'+it.label[currentLang]+'</span><span class="sub">'+it.file[currentLang]+'</span>';
+      btn.addEventListener('click', function(){ cmdkChoose(it); });
+      cmdkList.appendChild(btn);
+    });
+  }
+  function cmdkChoose(it){
+    cmdkClose();
+    var el = document.getElementById(it.id);
+    if(!el) return;
+    var mobileNow = window.matchMedia('(max-width:760px)').matches;
+    if(mobileNow){
+      el.scrollIntoView({behavior:'smooth', block:'start'});
+    } else {
+      content.scrollTo({ top: el.offsetTop, behavior:'smooth' });
+    }
+  }
+  function cmdkOpen(triggerEl){
+    achClose();
+    closeMore();
+    cmdkOverlay.classList.add('open');
+    cmdkInput.value = '';
+    cmdkFiltered = cmdkItems.slice();
+    cmdkSelIndex = 0;
+    cmdkRender();
+    cmdkTrap.activate(triggerEl);
+    setTimeout(function(){ cmdkInput.focus(); }, 30);
+    unlockAchievement('power_user');
+  }
+  function cmdkClose(){
+    if(!cmdkOverlay.classList.contains('open')) return;
+    cmdkOverlay.classList.remove('open');
+    cmdkTrap.deactivate();
+  }
+
+  cmdkInput.addEventListener('input', function(){
+    var q = cmdkInput.value.trim().toLowerCase();
+    cmdkFiltered = cmdkItems.filter(function(it){
+      return it.label[currentLang].toLowerCase().indexOf(q) !== -1 || it.file[currentLang].toLowerCase().indexOf(q) !== -1;
+    });
+    cmdkSelIndex = 0;
+    cmdkRender();
+  });
+  cmdkInput.addEventListener('keydown', function(e){
+    if(e.key === 'ArrowDown'){ e.preventDefault(); cmdkSelIndex = Math.min(cmdkSelIndex+1, cmdkFiltered.length-1); cmdkRender(); }
+    else if(e.key === 'ArrowUp'){ e.preventDefault(); cmdkSelIndex = Math.max(cmdkSelIndex-1, 0); cmdkRender(); }
+    else if(e.key === 'Enter'){ e.preventDefault(); if(cmdkFiltered[cmdkSelIndex]) cmdkChoose(cmdkFiltered[cmdkSelIndex]); }
+    else if(e.key === 'Escape'){ cmdkClose(); }
+  });
+  cmdkOverlay.addEventListener('click', function(e){ if(e.target === cmdkOverlay) cmdkClose(); });
+  var cmdkCloseBtn = document.getElementById('cmdkCloseBtn');
+  if(cmdkCloseBtn) cmdkCloseBtn.addEventListener('click', cmdkClose);
+  var cmdkBtnEl = document.getElementById('cmdkBtn');
+  cmdkBtnEl.addEventListener('click', function(){ cmdkOpen(cmdkBtnEl); });
+  document.addEventListener('keydown', function(e){
+    if((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k'){
+      e.preventDefault();
+      cmdkOverlay.classList.contains('open') ? cmdkClose() : cmdkOpen();
+    }
+  });
+
+  // ---- Language switcher ----
+  var LANG_STORAGE_KEY = 'alifazeli_lang';
+  function loadStoredLang(){
+    try{
+      if(window.localStorage){
+        var saved = localStorage.getItem(LANG_STORAGE_KEY);
+        if(saved === 'fa' || saved === 'en') return saved;
+      }
+    }catch(e){}
+    return 'en';
+  }
+  function applyLanguage(lang){
+    currentLang = lang;
+    try{ if(window.localStorage) localStorage.setItem(LANG_STORAGE_KEY, lang); }catch(e){}
+    // reveal the window now that the real text for the resolved language is
+    // in place (see the early <head> script + .lang-pending CSS rule)
+    document.documentElement.classList.remove('lang-pending');
+    document.documentElement.lang = lang === 'en' ? 'en' : 'fa';
+    document.documentElement.dir = lang === 'en' ? 'ltr' : 'rtl';
+    document.documentElement.setAttribute('data-lang', lang);
+    document.title = I18N.title_tag[lang];
+    var mdEl = document.querySelector('meta[name="description"]');
+    if(mdEl) mdEl.setAttribute('content', I18N.meta_desc[lang]);
+
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var key = el.getAttribute('data-i18n');
+      if(I18N[key]) el.textContent = I18N[key][lang];
+    });
+    document.querySelectorAll('[data-i18n-title]').forEach(function(el){
+      var key = el.getAttribute('data-i18n-title');
+      if(I18N[key]) el.title = I18N[key][lang];
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el){
+      var key = el.getAttribute('data-i18n-placeholder');
+      if(I18N[key]) el.placeholder = I18N[key][lang];
+    });
+    document.querySelectorAll('[data-i18n-alt]').forEach(function(el){
+      var key = el.getAttribute('data-i18n-alt');
+      if(I18N[key]) el.alt = I18N[key][lang];
+    });
+    document.querySelectorAll('[data-i18n-aria]').forEach(function(el){
+      var key = el.getAttribute('data-i18n-aria');
+      if(I18N[key]) el.setAttribute('aria-label', I18N[key][lang]);
+    });
+
+    document.getElementById('langLabel').textContent = lang === 'en' ? 'EN' : 'FA';
+
+    // re-scramble the hero title and any headings already revealed on screen
+    var heroTitleNow = document.querySelector('.hero-title [data-i18n="hero_title"]');
+    if(heroTitleNow) scrambleReveal(heroTitleNow, I18N.hero_title[lang], 550);
+    document.querySelectorAll('.section.in-view h2.h-title').forEach(function(h){
+      var key = h.getAttribute('data-i18n');
+      if(key && I18N[key]) scrambleReveal(h, I18N[key][lang], 550);
+    });
+
+    // restart the typewriter cleanly in the new language
+    ri = 0; ci = 0; deleting = false;
+    if(reduceMotion){
+      // tick() never runs in reduced-motion mode, so nothing would ever
+      // refill the text if we cleared it here — set the static word directly
+      typeEl.textContent = ROLES[lang][0];
+    } else {
+      typeEl.textContent = '';
+    }
+
+    updateHeatmapLocale();
+    document.querySelectorAll('[data-count]').forEach(function(el){
+      var target = parseInt(el.getAttribute('data-count'), 10);
+      el.textContent = target.toLocaleString('en-US');
+    });
+    renderAchPanel();
+    if(cmdkOverlay.classList.contains('open')) cmdkRender();
+  }
+
+  document.getElementById('langBtn').addEventListener('click', function(){
+    applyLanguage(currentLang === 'fa' ? 'en' : 'fa');
+    unlockAchievement('lang');
+  });
+
+  // Default the site to English on first visit (site defaults to fa in markup);
+  // returning visitors get whatever language they last chose.
+  applyLanguage(loadStoredLang());
+})();
+</script>
+</body>
+</html>
